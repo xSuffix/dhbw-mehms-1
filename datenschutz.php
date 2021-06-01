@@ -1,7 +1,13 @@
+<!DOCTYPE html>
+<html lang="de">
 <?php $pageTitle = "Datenschutz";
-include("includes/header.php"); ?>
+include("includes/head.php"); ?>
 
-datenschutz
+<body>
+  <?php $pageTitle = "Datenschutz";
+  include("includes/header.php"); ?>
+
+  datenschutz
 </body>
 
 </html>
