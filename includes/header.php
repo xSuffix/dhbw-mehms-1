@@ -19,10 +19,10 @@
   <header>
     Some Icon, Title
     <nav>
-      <a href="index.php">Home</a>
-      <a href="kontakt.php">Kontakt</a>
-      <a href="datenschutz.php">Datenschutz</a>
-      <a href="impressum.php">Impressum</a>
+      <a href="./">Home</a>
+      <a href="kontakt">Kontakt</a>
+      <a href="datenschutz">Datenschutz</a>
+      <a href="impressum">Impressum</a>
     </nav>
 
   </header>
