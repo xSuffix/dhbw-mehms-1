@@ -1,0 +1,37 @@
+/* 
+Breakpoints
+xs <  600px
+sm  600px > <  960px
+md  960px > < 1264px
+lg 1264px > < 1904px
+xl > 1904px
+*/
+
+header {
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  display: none;
+}
+
+header nav a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 8px;
+  margin: 0 16px;
+}
+
+header nav a:hover {
+  color: red;
+}
+
+@media (min-width: 600px) {
+  header nav {
+    display: block;
+  }
+}
