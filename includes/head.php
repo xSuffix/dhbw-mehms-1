@@ -1,6 +1,6 @@
 <head>
   <meta charset="UTF-8">
-  <title><?php echo $pageTitle ?> - DHBW Memes</title>
+  <title><?php echo $pageTitle ?> - DHBW Mehms</title>
   <link rel="stylesheet" href="/styles/global.css">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
