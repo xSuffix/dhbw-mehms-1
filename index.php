@@ -7,7 +7,9 @@ include("includes/head.php"); ?>
   <?php $pageTitle = "Datenschutz";
   include("includes/header.php"); ?>
 
-home
+  <main class="container">
+    index
+  </main>
 </body>
 
 </html>

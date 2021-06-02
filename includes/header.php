@@ -1,4 +1,4 @@
-<header>
+<header class="container">
   <a href="./" class="logo">
     <img src="/assets/logo.png" alt="Dogo the Logo" height="64">
     <div>DHBW Mehms</div>

@@ -1,11 +1,18 @@
 /* 
 Breakpoints
-xs <  600px
-sm  600px > <  960px
-md  960px > < 1264px
-lg 1264px > < 1904px
-xl > 1904px
+xs <  640px
+sm <  768px
+md < 1024px
+lg < 1280px
+xl > 1536px
 */
+
+.container {
+  max-width: 64rem;
+  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 body {
   margin: 0;
@@ -43,11 +50,15 @@ header nav a:hover {
   font-weight: bold;
 }
 
+.logo > img {
+  image-rendering: pixelated;
+}
+
 .logo > div {
   margin-left: 16px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 640px) {
   header nav {
     display: block;
   }
