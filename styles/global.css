@@ -8,12 +8,23 @@ xl > 1536px
 */
 
 :root {
-  --heading-stroke: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  --color-primary: #6787F5;
+  --color-h: #444;
+  --color-p: #666;
+  --color-border: #222;
+  --stroke-heading: -1px -1px 0 var(--color-border), 0 -1px 0 var(--color-border), 1px -1px 0 var(--color-border), 1px 0 0 var(--color-border), 1px 1px 0 var(--color-border), 0 1px 0 var(--color-border), -1px 1px 0 var(--color-border), -1px 0 0 var(--color-border);
+  --font-arcade: "Press Start 2P", cursive;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @font-face {
   font-family: "Press Start 2P";
   src: url("../fonts/PressStart2P-Regular.woff2");
+}
+
+@keyframes color-p-primary {
+  from {color: var(--color-p)}
+  to {color: var(--color-primary)}
 }
 
 .container {
@@ -26,6 +37,7 @@ xl > 1536px
 body {
   margin: 0;
   overflow: hidden;
+  font-family: var(--font-sans);
 }
 
 header {
@@ -59,9 +71,9 @@ header nav a {
   font-weight: 500;
   padding: 8px;
   margin: 0 8px;
-  font-family: "Press Start 2P", cursive;
+  font-family: var(--font-arcade);
   color: #fff;
-  text-shadow: var(--heading-stroke);
+  text-shadow: var(--stroke-heading);
 }
 
 header nav a:hover {
@@ -76,23 +88,62 @@ header nav a:hover {
   font-weight: bold;
   font-family: "Press Start 2P", cursive;
   color: #fff;
-  text-shadow: var(--heading-stroke);
+  text-shadow: var(--stroke-heading);
   user-select: none;
 }
 
-.logo>img {
+.logo > img {
   image-rendering: pixelated;
-  border: 1px solid #000;
+  border: 1px solid var(--color-border);
   border-radius: 50%;
 }
 
-.logo>div {
+.logo > div {
   margin-left: 16px;  
+}
+
+.bottom-navigation {
+  height: 56px;
+}
+
+.bottom-navigation > nav {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 56px;
+  width: 100vw;
+  box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.bottom-navigation a {
+  height: 100%;
+  width: 100%;
+  min-width: 64px;
+  max-width: 168px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--color-p);
+}
+
+.bottom-navigation svg {
+  height: 24px;
 }
 
 @media (min-width: 640px) {
   header nav {
     display: block;
+  }
+
+  .bottom-navigation {
+    display: none;
   }
 }
 

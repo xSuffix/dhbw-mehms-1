@@ -19,6 +19,8 @@
   <main class="container">
     datenschutz
   </main>
+
+  <?php include("includes/bottom-navigation.php"); ?>
 </body>
 
 </html>

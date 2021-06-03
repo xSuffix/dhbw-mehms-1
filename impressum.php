@@ -19,6 +19,8 @@
   <main class="container">
     impressum
   </main>
+
+  <?php include("includes/bottom-navigation.php"); ?>
 </body>
 
 </html>
