@@ -7,6 +7,11 @@ lg < 1280px
 xl > 1536px
 */
 
+/* Remove 000webhost overlay */
+a[href^="https://www.000webhost.com"] {
+  display: none;
+}
+
 :root {
   --color-primary: #6787F5;
   --color-h: #444;
@@ -119,7 +124,7 @@ header nav a:hover {
 .bottom-navigation a {
   height: 100%;
   width: 100%;
-  min-width: 64px;
+  min-width: 48px;
   max-width: 168px;
   padding: 0 16px;
   display: flex;
