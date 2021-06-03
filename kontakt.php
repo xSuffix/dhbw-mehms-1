@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="de">
-<?php $pageTitle = "Datenschutz";
-include("includes/head.php"); ?>
+
+<head>
+  <title>Kontakt - DHBW Mehms</title>
+  <?php include("includes/meta.php"); ?>
+  <style>
+    :root {
+      --banner-top: #b167eb;
+      --banner-bottom: #4bd8f6;
+    }
+  </style>
+</head>
+
 
 <body>
-  <?php $pageTitle = "Datenschutz";
-  include("includes/header.php"); ?>
+  <?php include("includes/header.php"); ?>
 
   <main class="container">
     kontakt
