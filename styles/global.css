@@ -26,7 +26,7 @@ a[href^="https://www.000webhost.com"] {
 
 :root .dark {
   --color-bg: #030D15;
-  --color-bg2: #001221;
+  --color-bg2: #081520;
   --color-p: #bbb;
 }
 
@@ -54,12 +54,20 @@ body {
   background: var(--color-bg);
 }
 
+.header-wrapper {
+  height: 128px;
+  margin-bottom: 32px;
+}
+
 header {
+  z-index: 8;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 128px;
+  width: 100%;
   padding: 0px 16px;
+  box-sizing: border-box;
 }
 
 .banner {
@@ -126,7 +134,7 @@ header nav a:hover {
   display: flex;
   justify-content: center;
   height: 56px;
-  width: 100vw;
+  width: 100%;
   background: var(--color-bg2);
   box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
 }
@@ -153,6 +161,10 @@ header nav a:hover {
 }
 
 @media (min-width: 640px) {
+  header {
+    position: fixed;
+  }
+
   header nav {
     display: block;
   }

@@ -10,11 +10,11 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  gap: 8px;
 }
 
 .meme-card {
   position: relative;
-  margin: 8px;
   border: 1px solid var(--color-border)
 }
 

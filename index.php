@@ -12,6 +12,13 @@
   <?php include("includes/header.php"); ?>
 
   <main class="container">
+    
+    <div class="toolbar">
+      <div class="searchbar">
+        <input type="text">
+      </div>
+    </div>
+
     <div class="gallery">
       <?php $dirname = "assets/memes/";
       $images = glob($dirname . "*");
