@@ -1,0 +1,25 @@
+:root {
+  --banner-top: #b167eb;
+  --banner-bottom: #4bd8f6;
+}
+
+.home {
+  animation: 0.2s color-p-primary forwards;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meme-card {
+  position: relative;
+  margin: 4px;
+}
+
+.meme-card img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  vertical-align: bottom;
+}

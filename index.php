@@ -3,17 +3,8 @@
 
 <head>
   <title>Home - DHBW Mehms</title>
+  <link rel="stylesheet" href="/styles/index.css">
   <?php include("includes/meta.php"); ?>
-  <style>
-    :root {
-      --banner-top: #b167eb;
-      --banner-bottom: #4bd8f6;
-    }
-
-    .home {
-      animation: 0.2s color-p-primary forwards;
-    }
-  </style>
 </head>
 
 
@@ -21,7 +12,20 @@
   <?php include("includes/header.php"); ?>
 
   <main class="container">
-    index
+    <div class="gallery">
+      <?php $dirname = "assets/memes/";
+      $images = glob($dirname . "*");
+
+      foreach ($images as $image) {
+        $sizes = getimagesize($image);
+        try {
+          echo '<a class="meme-card" style="width:' . $sizes[0] * 300 / $sizes[1] .
+            'px; flex-grow: ' . $sizes[0] * 300 / $sizes[1] . '"><div style="padding-top: ' .
+            $sizes[1] / $sizes[0] * 100 . '%"></div><img src="' . $image . '" /></a>';
+        } catch (DivisionByZeroError $e) {
+        }
+      } ?>
+    </div>
   </main>
 
   <?php include("includes/bottom-navigation.php"); ?>

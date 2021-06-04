@@ -41,8 +41,9 @@ a[href^="https://www.000webhost.com"] {
 
 body {
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: var(--font-sans);
+  background: #f7f7f8;
 }
 
 header {
@@ -118,6 +119,7 @@ header nav a:hover {
   justify-content: center;
   height: 56px;
   width: 100vw;
+  background: #fff;
   box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
 }
 
