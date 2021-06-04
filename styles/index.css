@@ -14,7 +14,8 @@
 
 .meme-card {
   position: relative;
-  margin: 4px;
+  margin: 8px;
+  border: 1px solid var(--color-border)
 }
 
 .meme-card img {
