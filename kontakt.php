@@ -21,7 +21,18 @@
   <?php include("includes/header.php"); ?>
 
   <main class="container">
-    kontakt
+    	<form action="scripts/kontaktFormular.php" method="post">
+			<label for="name"> Name </label>
+			<input id="name" type="text" placeholder="Name" required name="kName">
+			<br>
+			<label for="nachricht"> Nachricht </label>
+			<textarea id="nachricht" type="text" placeholder="Nachricht" required name="kNachricht"></textarea>
+			<br>
+			<label for="mail"> Mail </label>
+			<input id="mail" type="email" placeholder="Mailadresse" required name="kMail">
+			<br>
+			<button> Absenden </button>
+		</form>
   </main>
 
   <?php include("includes/bottom-navigation.php"); ?>
