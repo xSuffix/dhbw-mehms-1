@@ -163,6 +163,8 @@ header nav a:hover {
 @media (min-width: 640px) {
   header {
     position: fixed;
+    left: 50%;
+    transform: translate(-50%);
   }
 
   header nav {
