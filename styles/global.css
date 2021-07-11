@@ -165,6 +165,8 @@ header nav a:hover {
     position: fixed;
     left: 50%;
     transform: translate(-50%);
+    top: 0;
+    transition: top 0.3s;
   }
 
   header nav {
