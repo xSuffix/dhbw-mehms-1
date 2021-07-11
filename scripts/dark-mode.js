@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+  
   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.body.classList.add("dark");
   }
@@ -10,4 +11,5 @@ document.addEventListener('DOMContentLoaded', function () {
       document.body.classList.remove("dark");
     }
   });
+
 });

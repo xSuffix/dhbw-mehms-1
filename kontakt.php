@@ -3,6 +3,7 @@
 
 <head>
   <title>Kontakt - DHBW Mehms</title>
+  <link href="styles/kontakt.css" rel="stylesheet">
   <?php include("includes/meta.php"); ?>
   <style>
     :root {
@@ -21,7 +22,26 @@
   <?php include("includes/header.php"); ?>
 
   <main class="container">
-    kontakt
+	<section>	
+		<h2> Kontakt </h2>
+		<p> 
+		Du hast Fragen oder Anregungen an uns? Dann kontaktiere uns ganz einfach über dieses Formular. <br>
+		Wir versuchen schnellstmöglich auf alle Anfragen zu antworten. <br>
+		</p>
+		
+		<form action="kontaktFormular.php" method="post">
+			<label for="name"> Name </label>
+			<input id="name" type="text" placeholder="Name" required name="kName"> 
+			<br>
+			<label for="nachricht"> Nachricht </label>
+			<textarea id="nachricht" placeholder="Nachricht" required name="kNachricht"></textarea>
+			<br>
+			<label for="mail"> Mail </label>
+			<input id="mail" type="email" placeholder="Mailadresse" required name="kMail">
+			<br>
+			<button> Absenden </button>
+		</form>
+	</section>
   </main>
 
   <?php include("includes/bottom-navigation.php"); ?>

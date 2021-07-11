@@ -12,24 +12,26 @@
   <?php include("includes/header.php"); ?>
 
   <main class="container">
-    
+
     <div class="toolbar">
       <div class="searchbar">
         <input type="text">
       </div>
     </div>
 
-    <div class="gallery">
-      <?php $dirname = "assets/memes/";
+    <div id="gallery" class="gallery">
+      <?php $dirname = "./assets/memes/";
       $images = glob($dirname . "*");
 
       foreach ($images as $image) {
-        $sizes = getimagesize($image);
-        try {
-          echo '<a class="meme-card" style="width:' . $sizes[0] * 300 / $sizes[1] .
-            'px; flex-grow: ' . $sizes[0] * 300 / $sizes[1] . '"><div style="padding-top: ' .
-            $sizes[1] / $sizes[0] * 100 . '%"></div><img src="' . $image . '" /></a>';
-        } catch (DivisionByZeroError $e) {
+        if ($image != "./assets/memes/rick.gif") {
+          $sizes = getimagesize($image);
+          try {
+            echo '<a class="meme-card" style="width:' . $sizes[0] * 300 / $sizes[1] .
+              'px; flex-grow: ' . $sizes[0] * 300 / $sizes[1] . '"><div style="padding-top: ' .
+              $sizes[1] / $sizes[0] * 100 . '%"></div><img src="' . $image . '" /></a>';
+          } catch (DivisionByZeroError $e) {
+          }
         }
       } ?>
     </div>
