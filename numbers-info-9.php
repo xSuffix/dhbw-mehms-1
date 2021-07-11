@@ -14,7 +14,7 @@
       animation: 0.2s color-p-primary forwards;
     }
   </style>
-  <link rel="stylesheet" href="pog.css">
+  <link rel="stylesheet" href="numbers.css">
 </head>
 
 
