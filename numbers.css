@@ -36,7 +36,7 @@ td:nth-child(3n+1) {
 td:nth-child(2n):hover {
     background-color: rgba(0, 168, 255, 1);
 }
-.kek{
+.body{
     margin-top: 80px;
     margin-bottom: 50px;
     margin-left: auto;
@@ -47,19 +47,12 @@ td:nth-child(2n):hover {
     border: 1px solid rgba(0, 168, 255, 0.75);
     padding-bottom: 50px;
 }
-.lulw {
+.head {
     font-size: 40px;
     width:fit-content;
     margin-right: auto;
     margin-bottom: 50px;
     
-}
-body {
-    /* background: rgb(255,200,0);
-    background: linear-gradient(0deg, rgba(255,200,0,0.5) 0%, rgba(255,200,0,0.6) 100%); */
-}
-div {
-    /*border: 1px solid green;*/
 }
 hr {
     background-color: rgba(0, 168, 255, 0.75);

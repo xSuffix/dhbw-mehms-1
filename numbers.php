@@ -22,11 +22,11 @@
   <?php include("includes/header.php"); ?>
 
   <main class="container">
-  <div class="lulw">
+  <div class="head">
     <h1>Top Ten Numbers</h1>
     <h5>trust. they are best numbers</h5>
   </div>
-  <div class="kek">
+  <div class="body">
     <div class="firstrow">
       <h3><span class="left">Introductory Words - Our Efforts</span></h3><hr>
     </div>

@@ -22,11 +22,11 @@
   <?php include("includes/header.php"); ?>
 
   <main class="container">
-  <div class="lulw">
+  <div class="head">
     <h1>42</h1>
     <h5 style="margin-left: auto">The Answer</h5>
   </div>
-  <div class="kek" style="padding-bottom: 0">
+  <div class="body" style="padding-bottom: 0">
     <div class="firstrow">
       <h3><span class="left">More information: 42</span></h3><hr>
     </div>
