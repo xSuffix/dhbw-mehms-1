@@ -16,7 +16,7 @@ textarea{
 	height: 10em;	
 }
 
-input, textarea{
+input, textarea, section>div{
 	background: rgba(255,255,255, 0.75);	
 }
 
@@ -36,6 +36,14 @@ form{
 
 button:hover {
   background: #999999;
+}
+
+section>div{
+	color:black;
+	padding: 1em;
+	font-size: 14px;
+	border-radius: 5px;
+	margin: 5px;
 }
 
 @media screen {

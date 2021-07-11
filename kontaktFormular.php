@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 	<head>
+		<link href="styles/kontakt.css" rel="stylesheet">
 		<meta charset="UTF-8"> 
 		<title> Kontaktformular - erfolgreich gesendet </title>
 	<?php include("includes/meta.php"); ?>
@@ -16,14 +17,14 @@
 	<body>
 	<?php include("includes/header.php"); ?>	
 	<main class="container">
-	
-		Sehr geehrte/-r 
+	<section>
+		<h2>Sehr geehrte/-r 
 		<strong>
 		<?php
 			echo $_POST["kName"];
 		?>
 		</strong>
-		<br>
+		</h2>
 		Vielen Dank, dass du uns diese Nachricht gesendet hast:
 		<div>
 			<?php
@@ -31,7 +32,6 @@
 			?>
 		</div>
 		
-		<br>
 		Wir werden dir schnellstmöglich an 
 		<strong> 
 		<?php
@@ -39,7 +39,7 @@
 		?>
 		</strong>
 		antworten.
-		
+	</section>
 	</main>
 	<?php include("includes/bottom-navigation.php"); ?>
 	</body> 
