@@ -7,6 +7,52 @@
   animation: 0.2s color-p-primary forwards;
 }
 
+body.scrolled:not(.scroll-up) header {
+  padding-bottom: 8px;
+}
+
+.toolbar-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 8;
+  padding: 8px 0;
+  margin-bottom: 1rem;
+  transition: top 0.2s;  
+}
+
+.scrolled .toolbar-wrapper {
+  background: #9054f0;
+  background: linear-gradient(0deg, #8662f2 0%, #9054f0 100%);
+}
+
+.toolbar {  
+  background: var(--color-bg2);
+  border: 1px solid var(--color-border);
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.toolbar .i-search {
+  height: 24px;
+  color: var(--color-primary);
+}
+
+.toolbar input {
+  outline: 0;
+  border: 0;
+  color: var(--color-p);
+  font-size: 1.25rem;
+  background: transparent;
+  width: 100%;
+  padding: 4px;
+}
+
+.toolbar input::placeholder {
+  color: var(--color-p-a);
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +61,8 @@
 
 .meme-card {
   position: relative;
-  border: 1px solid var(--color-border)
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
 }
 
 .meme-card img {
@@ -23,4 +70,20 @@
   top: 0;
   width: 100%;
   vertical-align: bottom;
+  border-radius: 4px;
+}
+
+@media (min-width: 640px) {
+  .toolbar-wrapper {
+    top: 8px;
+    padding: 0 0 8px 0;
+  }
+
+  .scroll-up .toolbar-wrapper {
+    top: 80px;
+  }
+
+  .scrolled.scroll-up .toolbar-wrapper {
+    background: linear-gradient(0deg, #7874f4 0%, #8167f2 100%);
+  }
 }

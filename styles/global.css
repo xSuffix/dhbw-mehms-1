@@ -18,6 +18,7 @@ a[href^="https://www.000webhost.com"] {
   --color-bg2: #fff;
   --color-h: #444;
   --color-p: #666;
+  --color-p-a: #666666cc;
   --color-border: #222;
   --stroke-heading: -1px -1px 0 var(--color-border), 0 -1px 0 var(--color-border), 1px -1px 0 var(--color-border), 1px 0 0 var(--color-border), 1px 1px 0 var(--color-border), 0 1px 0 var(--color-border), -1px 1px 0 var(--color-border), -1px 0 0 var(--color-border);
   --font-arcade: "Press Start 2P", cursive;
@@ -28,6 +29,7 @@ a[href^="https://www.000webhost.com"] {
   --color-bg: #030D15;
   --color-bg2: #081520;
   --color-p: #bbb;
+  --color-p-a: #bababacc;
 }
 
 @font-face {
@@ -42,7 +44,8 @@ a[href^="https://www.000webhost.com"] {
 
 .container {
   max-width: 80rem;
-  padding: 0 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -54,9 +57,20 @@ body {
   background: var(--color-bg);
 }
 
-.header-wrapper {
-  height: 128px;
-  margin-bottom: 32px;
+.header-spacer {
+  margin-bottom: 16px;
+}
+
+#header-wrapper {
+  width: 100%;
+  z-index: 8;
+}
+
+#header-bg {
+  display: none;
+  position: absolute;
+  min-width: 100vw;
+  background-color: var(--color-bg2);
 }
 
 header {
@@ -64,23 +78,24 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 128px;
   width: 100%;
-  padding: 0px 16px;
+  padding: 16px 16px;
+  position: relative;
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+.scrolled:not(.scroll-up) header {
+  padding-bottom: 0;
 }
 
 .banner {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 50%;
   transform: translate(-50%);
   width: 1920px;
   height: 422px;
-  background-image: url("../assets/banner.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
   z-index: -1;
 }
 
@@ -161,12 +176,35 @@ header nav a:hover {
 }
 
 @media (min-width: 640px) {
-  header {
+  .header-spacer {
+    height: 128px;
+    margin-bottom: 16px;
+  }
+
+  #header-wrapper {
+    position: absolute;
+    top: -80px;
+    margin-top: 80px;
+  }
+
+  .header-sm #header-bg {
+    display: block;
+  }
+
+  .header-sm #header-wrapper {
     position: fixed;
-    left: 50%;
-    transform: translate(-50%);
-    top: 0;
-    transition: top 0.3s;
+    margin-top: 0;
+    transition: top 0.2s;
+  }
+
+  .header-sm header {
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  header {
+    padding: 32px 16px;
   }
 
   header nav {
@@ -181,7 +219,7 @@ header nav a:hover {
 @media (min-width: 1920px) {
   .banner {
     width: 100%;
-    top: calc(422px - 22vw);
     height: 22vw;
+    top: -2px;
   }
 }
