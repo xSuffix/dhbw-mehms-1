@@ -39,6 +39,10 @@ body.scrolled:not(.scroll-up) header {
   color: var(--color-primary);
 }
 
+.toolbar form {
+  width: 100%;
+}
+
 .toolbar input {
   outline: 0;
   border: 0;
