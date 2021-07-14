@@ -41,20 +41,23 @@
         return $res;
       }
 
-      $dirname = "./assets/memes/";
+      $dirname = "./assets/mehms/";
       $images = glob($dirname . "*" . ignoreCase($search) . "*");
 
       foreach ($images as $image) {
-        if ($image != "./assets/memes/rick.gif") {
+        $imageName = explode("/", $image);
+        $imageName = end($imageName);
+        if ($image != "./assets/mehms/rick.gif") {
           $sizes = getimagesize($image);
           try {
-            echo '<a class="meme-card" style="width:' . $sizes[0] * 300 / $sizes[1] .
+            echo '<a class="mehm-card" style="width:' . $sizes[0] * 300 / $sizes[1] .
               'px; flex-grow: ' . $sizes[0] * 300 / $sizes[1] . '"><div style="padding-top: ' .
-              $sizes[1] / $sizes[0] * 100 . '%"></div><img src="' . $image . '" loading="lazy" /></a>';
+              $sizes[1] / $sizes[0] * 100 . '%"></div><img src="' . $image . '" loading="lazy" name="' . $imageName . '" /></a>';
           } catch (DivisionByZeroError $e) {
           }
         }
       } ?>
+      <div id="theater"></div>
     </div>
   </main>
 

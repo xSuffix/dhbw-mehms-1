@@ -63,7 +63,7 @@ body {
 
 #header-wrapper {
   width: 100%;
-  z-index: 8;
+  z-index: 32;
 }
 
 #header-bg {
@@ -74,7 +74,7 @@ body {
 }
 
 header {
-  z-index: 8;
+  z-index: inherit;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -146,6 +146,7 @@ header nav a:hover {
 .bottom-navigation > nav {
   position: fixed;
   bottom: 0;
+  z-index: 128;
   display: flex;
   justify-content: center;
   height: 56px;
