@@ -34,6 +34,7 @@
 
   </main>
 
+  <?php include("includes/footer.php"); ?>
   <?php include("includes/bottom-navigation.php"); ?>
 </body>
 
