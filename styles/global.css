@@ -184,24 +184,25 @@ footer {
   border-radius: 4px 4px 0 0;
 }
 
-footer .container {
-  display: flex;
+footer > div.container {
   background: #081520;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: inherit;
 }
 
-footer span {
+footer > .container > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 4rem;
+}
+
+footer p {
+  margin: 0.75rem 0;
+}
+
+footer .h-icon {
   margin-right: 8px;
-}
-
-footer .left {
-  /* float: left; */
-}
-
-footer .right {
-  /* float: right; */
 }
 
 .bottom-navigation {

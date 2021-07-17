@@ -26,7 +26,8 @@
 		<h2> Kontakt </h2>
 		<p> 
 		Du hast Fragen oder Anregungen an uns? Dann kontaktiere uns ganz einfach über dieses Formular. <br>
-		Wir versuchen schnellstmöglich auf alle Anfragen zu antworten. <br>
+		Wir versuchen schnellstmöglich auf alle Anfragen zu antworten. 
+		Falls du ein Mehm mit uns teilen möchtest, kannst du das <b><a href="memeEinsendung.php">hier</a>.
 		</p>
 		
 		<form action="kontaktFormular.php" method="post">
