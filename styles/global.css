@@ -51,8 +51,8 @@ a[href^="https://www.000webhost.com"] {
 
 h1, h2, h3 {
   color: var(--color-h);
-  /* font-family: var(--font-arcade); */
-  text-shadow: var(--stroke-heading);
+  /* font-family: var(--font-arcade); 
+  text-shadow: var(--stroke-heading); */
 }
 
 a {

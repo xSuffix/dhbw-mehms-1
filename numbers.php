@@ -41,19 +41,19 @@
          So get ready for an awesome experience and enjoy the read!
       </p><hr>
     </div>
-    <table>
+    <table><thead>
       <tr>
-        <td>10</td><td>420</td>
+        <th>10</th><th>420</th>
       </tr>
-    </table>
+    </thead></table>
     <p class="number_text">As a clear fan favorite, '420' has to be a part of this ranking, and its appearance is not even
       undeserved: the so-called . . .<a href="numbers-info-420.php"><span class="learn_more">Learn more</span></a>
     </p>
-    <table>
+    <table><tbody>
       <tr>
         <td>9</td><td>0</td>
       </tr>
-    </table>
+    </tbody></table>
     <p class="number_text">Math without '0' does not make sense. However, doing math with '0' explicitly does not make sense as well. 
       Fun fact: Our time . . .<a href="numbers-info-0.php"><span class="learn_more">Learn more</span></a>
     </p>
