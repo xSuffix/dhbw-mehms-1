@@ -9,6 +9,7 @@ h5 {
     margin-left: 10px;
 }
 table {
+    margin-left: auto;
     margin-right: auto;
     border-collapse: separate;
     border-spacing: 100px 20px;
@@ -77,7 +78,17 @@ p {
     overflow: hidden;
     line-height: 1.7;
 }
+caption {
+    margin: 16px 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: darkslategrey;
+    overflow: hidden;
+    line-height: 1.7;
+    caption-side: bottom;
+}
 .number_text {
+    text-align: left;
     margin: 0px 70px;
     padding-bottom: 20px;
 }
@@ -132,6 +143,9 @@ p {
     p {
         padding: 0px 10px;
     }
+    caption {
+        padding: 0px 10px;
+    }
     table {
         margin-right: auto;
         border-collapse: separate;
@@ -149,7 +163,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 600px) {
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
     h1 {
         font-size: 50px;
     }
@@ -159,6 +173,9 @@ p {
     }
     .body {
       width: 80%;
+    }
+    caption {
+        padding: 0px 10px;
     }
     .number_text {
         margin: 0px 10px;
