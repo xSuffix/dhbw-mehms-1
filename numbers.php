@@ -42,77 +42,80 @@
       </p><hr>
     </div>
     <table>
-      <tr>
-        <td>10</td><td>420</td>
-      </tr>
-    </table>
-    <p class="number_text">As a clear fan favorite, '420' has to be a part of this ranking, and its appearance is not even
+    <caption class="number_text">As a clear fan favorite, '420' has to be a part of this ranking, and its appearance is not even
       undeserved: the so-called . . .<a href="numbers-info-420.php"><span class="learn_more">Learn more</span></a>
-    </p>
-    <table>
+    </caption>
+    <thead>
       <tr>
-        <td>9</td><td>0</td>
+        <th>10</th><td>420</td>
       </tr>
-    </table>
-    <p class="number_text">Math without '0' does not make sense. However, doing math with '0' explicitly does not make sense as well. 
+    </thead></table>
+    <table>
+    <caption class="number_text">Math without '0' does not make sense. However, doing math with '0' explicitly does not make sense as well. 
       Fun fact: Our time . . .<a href="numbers-info-0.php"><span class="learn_more">Learn more</span></a>
-    </p>
-    <table>
+    </caption>
+    <tbody>
       <tr>
-        <td>8</td><td>3</td>
+        <th>9</th><td>0</td>
       </tr>
-    </table>
-    <p class="number_text">'3' is not just a number, in this case it rather stands for the concept of trinity that is used
+    </tbody></table>
+    <table>
+    <caption class="number_text">'3' is not just a number, in this case it rather stands for the concept of trinity that is used
       often in pop-cultural or esoteric means . . .<a href="numbers-info-3.php"><span class="learn_more">Learn more</span></a>
-    </p>
-    <table>
+    </caption>
       <tr>
-        <td>7</td><td>42</td>
+        <th>8</th><td>3</td>
       </tr>
     </table>
-    <p class="number_text">The number '42' is the most common of these numbers resulting of the well-known
+    <table>
+    <caption class="number_text">The number '42' is the most common of these numbers resulting of the well-known
       HHGTTG-reference of the answer to life . . .<a href="numbers-info-42.php"><span class="learn_more">Learn more</span></a>
-    </p>
-    <table>
+    </caption>
       <tr>
-        <td>6</td><td>9</td>
+        <th>7</th><td>42</td>
       </tr>
     </table>
-    <p class="number_text"><span style="text-decoration: line-through;">This is just here for the mehms.</span> The number '9' has always 
+    <table>
+    <caption class="number_text"><span style="text-decoration: line-through;">This is just here for the mehms.</span> The number '9' has always 
     received a lot of fascination, mostly as a part of '19' or even '99' and . . .<a href="numbers-info-9.php"><span class="learn_more">Learn more</span></a>
-    </p>
-    <table>
+    </caption>
       <tr>
-        <td>5</td><td>7</td>
+        <th>6</th><td>9</td>
       </tr>
     </table>
-    <p class="number_text">And yet another number connoted with mysticism and spirituality. It is almost a guaranteed member
+    <table>
+    <caption class="number_text">And yet another number connoted with mysticism and spirituality. It is almost a guaranteed member
       of a fairy-tale like the . . .<a href="numbers-info-7.php"><span class="learn_more">Learn more</span></a>
-    </p>
-    <table>
+    </caption>
       <tr>
-        <td>4</td><td>2.147.483.648</td>
+        <th>5</th><td>7</td>
       </tr>
     </table>
-    <p class="number_text">The biggest number in this listing, however the most interesting fact about '2.147.483.648' is 
+    <table>
+    <caption class="number_text">The biggest number in this listing, however the most interesting fact about '2.147.483.648' is 
       that this number does literally not exist . . .<a href="numbers-info-2p31.php"><span class="learn_more">Learn more</span></a>
-    </p>
-    <table>
+    </caption>
       <tr>
-        <td>3</td><td>1</td>
+        <th>4</th><td>2.147.483.648</td>
       </tr>
     </table>
-    <p class="number_text">This number cannot miss the list, as it is not just the first number most people get to know, but also
+    <table>
+    <caption class="number_text">This number cannot miss the list, as it is not just the first number most people get to know, but also
       finding its place in most . . .<a href="numbers-info-1.php"><span class="learn_more">Learn more</span></a>
-    </p>
-    <table>
+    </caption>
       <tr>
-        <td>2</td><td>97379</td>
+        <th>3</th><td>1</td>
       </tr>
     </table>
-    <p class="number_text">Most likely, you have never heard about this number before. It is a worthy competitor though, especially 
+    <table>
+    <caption class="number_text">Most likely, you have never heard about this number before. It is a worthy competitor though, especially 
       due to its aesthetics . . .<a href="numbers-info-97379.php"><span class="learn_more">Learn more</span></a>
-    </p><hr>
+    </caption>
+      <tr>
+        <th>2</th><td>97379</td>
+      </tr>
+    </table>
+    <hr>
     <div class="firstrow">
       <h3><span class="left">Honorable mentions: those who did not make it</span></h3><hr>
     </div>
@@ -127,13 +130,13 @@
       </p><hr>
     </div>
     <table>
+      <caption class="number_text">The number '404' has gained a meaning of failed efforts and negative resonance throughout the 
+      last decades. You should  . . .<a href="numbers-info-404.php"><span class="learn_more">Learn more</span></a></caption>
+      <tfoot>
       <tr>
-        <td>1</td><td>404</td>
+        <th>1</th><td>404</td>
       </tr>
-    </table>
-    <p class="number_text">The number '404' has gained a meaning of failed efforts and negative resonance throughout the 
-      last decades. You should  . . .<a href="numbers-info-404.php"><span class="learn_more">Learn more</span></a>
-    </p>
+    </tfoot></table>
   </div>
   </main>
 
