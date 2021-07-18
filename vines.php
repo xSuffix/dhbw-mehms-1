@@ -14,9 +14,9 @@
       animation: 0.2s color-p-primary forwards;
     }
   </style>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="vines.css">
-  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="styles/global.css">
   <link rel="stylesheet" href="numbers.css">
 </head>
 
@@ -26,7 +26,7 @@
   <main class="container">
   <div class="head">
     <h1>Vines</h1>
-    <h5>Und lustige Animationen</h5>
+    <h5>Videos, Audio und Animationen</h5>
   </div>
   <div class="body">
     <h3>Beispielüberschrift<pre>&lth3>Hello  ,World&lt/h3></pre></h3>
@@ -50,12 +50,17 @@
           }
           }
         ?>
+      </div>
     <hr>
     <h3>External and Audio-only</h3>
     <hr>
-    <figure class ="vine">
-      <audio class="vine" controls><source src="assets\audio\udjjd.mp3" type="audio/mp3"></audio>
-      <figcaption>Rick Astley - Never gonna give you up</figcaption>
+    <figure class="vine">
+    <iframe class="vine" width="560px" height="315px" src="https://www.youtube.com/embed/EqekSuj5HCo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <figcaption>Walter Frosch - Vollblutprofi</figcaption>
+    </figure>
+    <figure class="vine">
+    <iframe class="vine" width="560px" height="315px" src="https://www.youtube.com/embed/asjQNZn7vng" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <figcaption>Rendering at 5 AM</figcaption>
     </figure>
     <figure class="vine">
     <iframe class="vine" width="560px" height="315px" src="https://www.youtube.com/embed/b8HO6hba9ZE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -64,6 +69,10 @@
     <figure class="vine">
     <iframe class="vine" width="560px" height="315px" src="https://www.youtube.com/embed/nXjro36-uLE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <figcaption>Alex Jones vs Creeper</figcaption>
+    </figure>
+    <figure class ="vine">
+      <audio class="vine" controls><source src="assets\audio\udjjd.mp3" type="audio/mp3"></audio>
+      <figcaption>Rick Astley - Never gonna give you up</figcaption>
     </figure>
     </div>
     </div>
