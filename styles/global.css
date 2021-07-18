@@ -7,9 +7,19 @@ lg < 1280px
 xl > 1536px
 */
 
-/* Remove 000webhost overlay */
-a[href^="https://www.000webhost.com"] {
-  display: none;
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("../fonts/PressStart2P-Regular.woff2");
+}
+
+@font-face {
+  font-family: "HeroIcons";
+  src: url("../fonts/HeroIcons.woff2");
+}
+
+@keyframes color-p-primary {
+  from {color: var(--color-p)}
+  to {color: var(--color-primary)}
 }
 
 :root {
@@ -34,19 +44,11 @@ a[href^="https://www.000webhost.com"] {
   --color-p-a: #bababacc;
 }
 
-@font-face {
-  font-family: "Press Start 2P";
-  src: url("../fonts/PressStart2P-Regular.woff2");
-}
-
-@font-face {
-  font-family: "HeroIcons";
-  src: url("../fonts/HeroIcons.woff2");
-}
-
-@keyframes color-p-primary {
-  from {color: var(--color-p)}
-  to {color: var(--color-primary)}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+  background: var(--color-bg);
 }
 
 h1, h2, h3 {
@@ -58,6 +60,11 @@ h1, h2, h3 {
 a {
   text-decoration: none;
   color: var(--color-primary)
+}
+
+/* Remove 000webhost overlay */
+a[href^="https://www.000webhost.com"] {
+  display: none;
 }
 
 p {
@@ -88,27 +95,9 @@ p {
   margin-right: auto;
 }
 
-body {
-  margin: 0;
-  overflow-x: hidden;
-  font-family: var(--font-sans);
-  background: var(--color-bg);
-}
-
-.header-spacer {
-  margin-bottom: 16px;
-}
-
 #header-wrapper {
   width: 100%;
   z-index: 32;
-}
-
-#header-bg {
-  display: none;
-  position: absolute;
-  min-width: 100vw;
-  background-color: var(--color-bg2);
 }
 
 header {
@@ -127,6 +116,13 @@ header {
   padding-bottom: 0;
 }
 
+#header-bg {
+  display: none;
+  position: absolute;
+  min-width: 100vw;
+  background-color: var(--color-bg2);
+}
+
 .banner {
   position: fixed;
   top: 0;
@@ -137,11 +133,11 @@ header {
   z-index: -1;
 }
 
-header nav {
+header > nav {
   display: none;
 }
 
-header nav a {
+header > nav a {
   text-decoration: none;
   font-weight: 500;
   padding: 8px;
@@ -151,7 +147,7 @@ header nav a {
   text-shadow: var(--stroke-heading);
 }
 
-header nav a:hover {
+header > nav a:hover {
   color: red;
 }
 
@@ -177,6 +173,10 @@ header nav a:hover {
   margin-left: 16px;  
 }
 
+.header-spacer {
+  margin-bottom: 16px;
+}
+
 footer {
   margin-top: 1rem;
   justify-content: space-between;
@@ -184,7 +184,7 @@ footer {
   border-radius: 4px 4px 0 0;
 }
 
-footer > div.container {
+footer > .container {
   background: #081520;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -243,41 +243,41 @@ footer .h-icon {
 }
 
 @media (min-width: 640px) {
-  .header-spacer {
-    height: 128px;
-    margin-bottom: 16px;
-  }
-
   #header-wrapper {
     position: absolute;
     top: -80px;
     margin-top: 80px;
   }
-
+  
   .header-sm #header-bg {
     display: block;
   }
-
+  
   .header-sm #header-wrapper {
     position: fixed;
     margin-top: 0;
     transition: top 0.2s;
   }
-
+  
   .header-sm header {
     margin: 0 auto;
     padding-top: 8px;
     padding-bottom: 8px;
   }
-
+  
   header {
     padding: 32px 16px;
   }
-
+  
   header nav {
     display: block;
   }
 
+  .header-spacer {
+    height: 128px;
+    margin-bottom: 16px;
+  }
+  
   .bottom-navigation {
     display: none;
   }

@@ -3,6 +3,7 @@
   --banner-bottom: #4bd8f6;
 }
 
+/* Color for selected page in navigation */
 .home {
   animation: 0.2s color-p-primary forwards;
 }
@@ -57,7 +58,7 @@ body.scrolled:not(.scroll-up) header {
   color: var(--color-p-a);
 }
 
-.gallery {
+#mehm-gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -105,12 +106,13 @@ body.scrolled:not(.scroll-up) header {
   left: 4px;
   font-weight: 500;
   text-shadow: var(--stroke-heading);
+  white-space: nowrap;
 }
 
 .mehm-card img.selected {
   width: auto;
   height: auto;
-  max-width: 100vw;
+  max-width: calc(100vw - 24px);
   max-height: calc(100vh - 112px);
 }
 

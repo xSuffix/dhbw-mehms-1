@@ -25,7 +25,7 @@
     </div>
 
 
-    <div id="gallery" class="gallery">
+    <div id="mehm-gallery">
       <?php $search = "";
       if (isset($_GET['search'])) {
         $search = $_GET['search'];
