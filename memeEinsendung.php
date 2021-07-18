@@ -26,13 +26,13 @@
 	<p>Du hast selbsterstellte Mehms, Vines oder Zitate, die du gerne mit anderen teilen möchtest? Diese Website lebt von euren Einsendungen!<br> Außerdem wird jede Einsendung auf Einmaligkeit überprüft, daher kann es sein, dass es einige Tage dauert, bis dein Mehm auf dieser Website sichtbar wird. Wir bitten um Verständnis. </p>
 	
 	<form action="memeFormular.php" method="post" enctype="multipart/form-data">
-		<label for="datei">Datei</label><input type="file"  name="mDatei" id="datei"> <!-- required -->
+		<label for="datei">Datei</label><input type="file"  name="mDatei" id="datei"> <!--(required)-->
 		<br>
 		<label for="kategorie">Kategorie</label><select name="mKategorie" id="kategorie" required>
 		  <option value="">Kategorie...</option>
-		  <option value="P">Programmieren</option>
-		  <option value="D">DHBW</option>
-		  <option value="A">Andere</option>
+		  <option value="Programmieren">Programmieren</option>
+		  <option value="DHBW">DHBW</option>
+		  <option value="Aandere">Andere</option>
 		</select>
 		<br>
 		<label for="autor">Autor</label><input id="autor" type="text" placeholder="Autor des Mehms" name="mAutor">

@@ -3,7 +3,7 @@
 	<head>
 		<link href="styles/kontakt.css" rel="stylesheet">
 		<meta charset="UTF-8"> 
-		<title> Kontaktformular - erfolgreich gesendet </title>
+		<title> Kontaktformular - upload </title>
 	<?php include("includes/meta.php"); ?>
 	  <style>
 		:root {
@@ -12,8 +12,6 @@
 		}
 	  </style>		
 	</head>
-	
-	// HEEEELLLPPP https://www.w3schools.com/php/php_file_upload.asp ka was hier abgeht lol
 	
 	<body>
 	<?php include("includes/header.php"); ?>	
@@ -24,16 +22,13 @@
 	$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 	
 	if (move_uploaded_file($_FILES["mDatei"]["tmp_name"], $target_file)) {
-    echo "The file ". htmlspecialchars( basename( $_FILES["mDatei"]["name"])). " has been uploaded.";
+    echo "<h1> Viele Dank für deine Einsedung, der Kategorie ". $_POST["mKategorie"]. "!</h1> <br> Die Datei ". htmlspecialchars( basename( $_FILES["mDatei"]["name"])). " wurde erfolgreich hochgeladen.";
+	
 	} else {
-    echo "Sorry, there was an error uploading your file.";}
+    echo "<h1> Tut uns Leid, es ist ein Fehler aufgetreten. Bitte versuche es erneut!</h1>";}
 	
 	?>
 	
-	
-	<section>
-		<h1> Vielen Dank für deine Einsendung! </h1>
-	<section>	
 	</main>
 	<?php include("includes/bottom-navigation.php"); ?>
 	</body> 
