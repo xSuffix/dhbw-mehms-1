@@ -52,15 +52,29 @@ button:hover {
   background: #999999;
 }
 
-section>div{
+section>div, article{
 	color:black;
 	padding: 1em;
 	border-radius: 5px;
 	margin: 5px;
 }
 
+article{
+	background: rgba(255,255,255, 0.75);
+		padding: 1em;
+}
+
 a:link, a:visited{
-	color:white;
+	color:white; 
+}
+
+p>a:link, article>a:link, article>a:visited, li>a:link{
+	color:black; 
+	text-decoration: underline;
+}
+
+ .document, article>div, article>h1, article>h2, article>h3, article>h4, article>p, article {
+	color:black !important;
 }
 
 a:hover{
@@ -95,3 +109,4 @@ a:hover{
 	box-sizing: border-box;
 	}
 }
+
