@@ -32,11 +32,11 @@
 				</p>
 	
 				<form action="kontaktFormular.php" method="post">
-					<label for="name">Name</label>
+					<label for="name" class="required">Name</label>
 					<input id="name" type="text" placeholder="Name" required name="kName">
-					<label for="nachricht">Nachricht</label>
+					<label for="nachricht" class="required">Nachricht</label>
 					<textarea id="nachricht" placeholder="Nachricht" required name="kNachricht"></textarea>
-					<label for="mail">Mail</label>
+					<label for="mail" class="required">Mail</label>
 					<input id="mail" type="email" placeholder="Mailadresse" required name="kMail">
 					<button>Absenden</button>
 				</form>

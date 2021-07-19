@@ -4,16 +4,18 @@ main > section {
 	padding: 1rem;
 }
 
-main > section > div {
-	margin: 0 auto;
-	max-width: 1024px;
-}
-
 main label {
 	color: var(--color-h);
+	margin-bottom: 0.5rem;
 }
 
-main input, main textarea {
+main label.required::after {
+	content: " *";
+	color: var(--color-primary);
+	font-size: 1rem;
+}
+
+main input, main textarea, main select, main article {
 	color: var(--color-p);
 	border: 1px solid var(--color-bg);
 	margin-bottom: 1rem;
@@ -27,132 +29,65 @@ main input, main textarea, main label {
 	display: block;
 }
 
+main textarea {
+	height: 10rem;
+	max-width: 100%;
+	min-width: 100%;
+}
+
 main button {
 	background: var(--color-primary);
 	color: var(--color-h);
 	font-weight: 500;
 	margin-top: 1rem;
-}
-
-input[type="file"] {
-	color: #777;
-}
-
-label {
-	display: none;
-}
-
-textarea {
-	position: relative;
-	height: 10rem;
-}
-
-input,
-textarea,
-select {
-	background: var(--color-bg-a);
-	padding: 0.5rem;
-}
-
-input,
-textarea,
-button,
-label,
-select {
-	font-family: var(--font-sans);
-	font-size: 1rem;
 	border-radius: 4px;
-	margin-bottom: 8px;
-	box-sizing: border-box;
-	border: none;
-}
-
-form {
-	margin: 2rem 0;
-}
-
-button {
+	width: 100%;
 	padding: 0.5rem;
 }
 
-button:hover {
-	background: #999;
+main button:hover {
 	cursor: pointer;
 }
 
-/* section>div,
-article {
-	color: black;
-	padding: 1em;
-	border-radius: 5px;
-	margin: 5px;
-} */
+main input[type="file"]::-webkit-file-upload-button {
+	margin-right: 0.5rem;
+}
 
-article {
-	background: rgba(255, 255, 255, 0.75);
+main input,
+main textarea,
+main select,
+main article {
+	background: var(--color-bg-a);
+	padding: 0.5rem;
+	border-radius: 4px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+main article {
 	padding: 1rem;
 }
 
-/* a:link,
-a:visited {
-	color: white;
+main input,
+main textarea,
+main button,
+main label,
+main select {
+	font-family: var(--font-sans);
+	font-size: 1rem;
+	border: none;
 }
 
-p>a:link,
-article>a:link,
-article>a:visited,
-li>a:link {
-	color: black;
-	text-decoration: underline;
+main form {
+	margin: 2rem 0;
 }
-
-.document,
-article>div,
-article>h1,
-article>h2,
-article>h3,
-article>h4,
-article>p,
-article {
-	color: black !important;
-} */
 
 main a:hover {
-	color: #aaa;
-}
-
-@media screen {
-
-	input,
-	textarea,
-	button,
-	select {
-		width: 100%;
-	}
+	text-decoration: underline;
 }
 
 @media screen and (min-width: 640px) {
 	main button {
-		max-width: 256px;
-	}
-
-	input,
-	textarea,
-	button,
-	select {
-		/* width: 75%; */
-	}
-
-	
-
-	label {
-		/* display: inline-block;
-		width: 90px; */
-		/* text-align: right; */
-		/* vertical-align: top; */
-		/* padding-top: 0.5em; */
-		/* padding-bottom: 0.5em; */
-		/* padding-right: 0.5em; */
-		/* box-sizing: border-box; */
+		max-width: 192px;
 	}
 }

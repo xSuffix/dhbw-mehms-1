@@ -42,7 +42,7 @@ xl > 1536px
   --color-bg2: hsl(208, 60%, 8%);
   --color-bg3: hsla(224, 60%, 15%, 0.6);
   --color-h: #ddd;
-  --color-p: #bbb;
+  --color-p: #ccc;
   --color-p-a: #bababacc;
 }
 
@@ -56,8 +56,6 @@ body {
 
 h1, h2, h3 {
   color: var(--color-h);
-  /* font-family: var(--font-arcade); 
-  text-shadow: var(--stroke-heading); */
 }
 
 a {
@@ -72,6 +70,11 @@ a[href^="https://www.000webhost.com"] {
 
 p {
   color: var(--color-p);
+}
+
+summary {
+  cursor: pointer;
+  color: var(--color-h);
 }
 
 .h-icon {
@@ -151,7 +154,7 @@ header > nav a {
 }
 
 header > nav a:hover {
-  color: red;
+  color: #FF355E;
 }
 
 .logo {
