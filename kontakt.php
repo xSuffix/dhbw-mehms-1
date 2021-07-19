@@ -27,7 +27,7 @@
 		<p> 
 		Du hast Fragen oder Anregungen an uns? Dann kontaktiere uns ganz einfach über dieses Formular. <br>
 		Wir versuchen schnellstmöglich auf alle Anfragen zu antworten. 
-		Falls du ein Mehm mit uns teilen möchtest, kannst du das <b><a href="memeEinsendung.php">hier</a>.
+		Falls du ein Mehm mit uns teilen möchtest, kannst du das <a href="memeEinsendung.php"><b>hier</b></a>.
 		</p>
 		
 		<form action="kontaktFormular.php" method="post">
