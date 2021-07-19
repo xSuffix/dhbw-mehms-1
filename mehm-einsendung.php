@@ -25,7 +25,7 @@
 	<h1> Dein Mehm </h1>
 	<p>Du hast selbsterstellte Mehms, Vines oder Zitate, die du gerne mit anderen teilen möchtest? Diese Website lebt von euren Einsendungen!<br> Außerdem wird jede Einsendung auf Einmaligkeit überprüft, daher kann es sein, dass es einige Tage dauert, bis dein Mehm auf dieser Website sichtbar wird. Wir bitten um Verständnis. </p>
 	
-	<form action="memeFormular.php" method="post" enctype="multipart/form-data">
+	<form action="mehm-formular" method="post" enctype="multipart/form-data">
 		<label for="datei">Datei</label><input type="file"  name="mDatei" id="datei"> <!--(required)-->
 		<br>
 		<label for="kategorie">Kategorie</label><select name="mKategorie" id="kategorie" required>

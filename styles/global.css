@@ -37,8 +37,10 @@ xl > 1536px
 }
 
 :root .dark {
-  --color-bg: #030D15;
-  --color-bg2: #081520;
+  --color-bg: #030e16;
+  --color-bg-a: #030e16cc;
+  --color-bg2: hsl(208, 60%, 8%);
+  --color-bg3: hsla(224, 60%, 15%, 0.6);
   --color-h: #ddd;
   --color-p: #bbb;
   --color-p-a: #bababacc;
@@ -48,6 +50,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: var(--font-sans);
+  color: var(--color-p);
   background: var(--color-bg);
 }
 
@@ -59,7 +62,7 @@ h1, h2, h3 {
 
 a {
   text-decoration: none;
-  color: var(--color-primary)
+  color: var(--color-h);
 }
 
 /* Remove 000webhost overlay */
@@ -199,6 +202,10 @@ footer > .container > div {
 
 footer p {
   margin: 0.75rem 0;
+}
+
+footer a {
+  color: var(--color-primary);
 }
 
 footer .h-icon {
