@@ -39,8 +39,8 @@ xl > 1536px
 :root .dark {
   --color-bg: #030e16;
   --color-bg-a: #030e16cc;
-  --color-bg2: hsl(208, 60%, 8%);
-  --color-bg3: hsla(224, 60%, 15%, 0.6);
+  --color-bg2: rgb(8, 21, 33);
+  --color-bg3: rgba(15, 28, 61, 0.69);
   --color-h: #ddd;
   --color-p: #ccc;
   --color-p-a: #bababacc;

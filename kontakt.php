@@ -24,7 +24,7 @@
 	<main class="container">
 		<section class="contact">
 			<div>
-				<h2>Kontakt</h2>
+				<h1>Kontakt</h1>
 				<p>
 					Du hast Fragen oder Anregungen an uns? Dann kontaktiere uns ganz einfach über dieses Formular.<br>
 					Wir versuchen schnellstmöglich auf alle Anfragen zu antworten.
