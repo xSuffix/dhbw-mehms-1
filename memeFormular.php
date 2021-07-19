@@ -22,7 +22,7 @@
 	$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 	
 	if (move_uploaded_file($_FILES["mDatei"]["tmp_name"], $target_file)) {
-    echo "<h1> Viele Dank für deine Einsedung, der Kategorie ". $_POST["mKategorie"]. "!</h1> <br> Die Datei ". htmlspecialchars( basename( $_FILES["mDatei"]["name"])). " wurde erfolgreich hochgeladen.";
+    echo "<h1> Viele Dank für deine Einsedung der Kategorie ". $_POST["mKategorie"]. "!</h1> <br> Die Datei ". htmlspecialchars( basename( $_FILES["mDatei"]["name"])). " wurde erfolgreich hochgeladen.";
 	
 	} else {
     echo "<h1> Tut uns Leid, es ist ein Fehler aufgetreten. Bitte versuche es erneut!</h1>";}

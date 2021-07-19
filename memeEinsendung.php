@@ -177,7 +177,7 @@
 		(3) Die Vergütungsansprüche nach den Absätzen 1 und 2 können nur durch eine Verwertungsgesellschaft geltend gemacht werden.
 		</article>
 	</details>
-		<p>Siehe auch: <a href="https://www.gesetze-im-internet.de/urhg/BJNR012730965.html#BJNR012730965BJNG000801377" target="_blank">Gesetz über Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz)</a> </p>
+		<p>Siehe auch: <a class="underline" href="https://www.gesetze-im-internet.de/urhg/BJNR012730965.html#BJNR012730965BJNG000801377" target="_blank">Gesetz über Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz)</a> </p>
 	</section>
   </main>
 

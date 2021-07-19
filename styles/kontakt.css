@@ -68,13 +68,12 @@ a:link, a:visited{
 	color:white; 
 }
 
-p>a:link, article>a:link, article>a:visited, li>a:link{
-	color:black; 
-	text-decoration: underline;
-}
-
  .document, article>div, article>h1, article>h2, article>h3, article>h4, article>p, article {
 	color:black !important;
+}
+
+a.document, a.underline {
+	text-decoration: underline;
 }
 
 a:hover{
