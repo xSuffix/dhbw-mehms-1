@@ -6,8 +6,8 @@
   <?php include("includes/meta.php"); ?>
   <style>
     :root {
-      --banner-top: #b167eb;
-      --banner-bottom: #4bd8f6;
+      --banner-top: #ff9900;
+			--banner-bottom: #eb7967;
     }
 
     .vines {

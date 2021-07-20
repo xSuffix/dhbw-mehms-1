@@ -19,7 +19,7 @@
             <img src="./assets/icons/github.svg" alt="GitHub" width="32">
           </a>
           <a href="mailto:mehms4DHBW@gmail.com">
-            <img src="./assets/icons/gmail.svg" alt="GitHub" width="24">
+            <img src="./assets/icons/gmail.svg" alt="Mail" width="24">
           </a>
         </div>
       </section>

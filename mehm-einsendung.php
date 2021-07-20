@@ -8,7 +8,7 @@
 	<style>
 		:root {
 			--banner-top: #67bfeb;
-			--banner-bottom: #ff9900;
+			--banner-bottom: #fdea04;
 		}
 
 		.kontakt {

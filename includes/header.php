@@ -12,7 +12,7 @@
     </a>
     <nav>
       <a href="vines">Vines</a>
-      <a href="numbers.php">Zahlen</a>
+      <a href="zahlen">Zahlen</a>
       <a href="kontakt">Kontakt</a>
     </nav>
   </header>
