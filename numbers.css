@@ -36,6 +36,10 @@ th {
   text-align: right;
 }
 
+main h3 {
+  text-align: center;
+}
+
 main section {
   max-width: 960px;
   margin: 4rem auto;

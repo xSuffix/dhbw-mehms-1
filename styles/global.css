@@ -119,10 +119,6 @@ summary {
 	padding: 1rem;
 }
 
-.paper h3 {
-  text-align: center;
-}
-
 .paper hr {
   margin: 2rem 0;
   border-color: var(--color-primary);
