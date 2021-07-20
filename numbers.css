@@ -17,10 +17,34 @@ main .heading h2 {
 
 
 table {
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 100px 20px;
+}
+thead {
+  border-bottom: solid 1px var(--color-p-a);
+  background-color: var(--color-bg);
+}
+tbody > tr {
+  background-color: var(--color-bg);
+}
+tbody > tr:nth-child(2n+1) {
+  background-color: var(--color-bg2);
+}
+tfoot {
+  background-color: var(--color-bg);
+}
+td {
+  padding: 5px 10px;
+  border-right: solid 1px var(--color-p-a); 
+}
+
+th {
+  padding: 5px 10px;
+  width: 50%;
+  text-align: right;
 }
 
 main article {

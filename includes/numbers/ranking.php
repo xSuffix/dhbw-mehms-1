@@ -161,7 +161,7 @@
       <h3>Overview: the numbers</h3>
       <hr>
       <table>
-        <caption>The Top 10 Numbers (2021/07):</caption>
+        <caption><pre>The Top 10 Numbers (2021/07):</pre></caption>
         <thead>
           <td>Placement</td><th>Number</th>
         </thead>
