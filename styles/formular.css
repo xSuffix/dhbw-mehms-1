@@ -86,12 +86,21 @@ main form {
 	margin: 2rem 0;
 }
 
-main a {
+main a{
 	color: var(--color-s);
 }
 
 main a:hover {
 	text-decoration: underline;
+}
+
+main aside{
+	width: 30%;
+	padding: 15px;
+	margin-left: 15px;
+	float: right;
+	background: var(--color-primary);
+	border-radius: 4px;
 }
 
 .response

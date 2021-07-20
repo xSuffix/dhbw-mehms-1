@@ -26,12 +26,16 @@
     <h1>Kontakt</h1>
 		<h2>Fragen und Anregungen</h2>
   </div>
+		<aside>
+			Falls du gerne mehr über uns erfahren möchtest: <br> Hier kannst du dich für unseren Newsletter amelden, um Informationen über unsere Projekte und unser <strong>Mehm of the Month</strong> zu erhalten!
+			<button>Registrieren</button>
+		</aside>
 		<section class="contact paper">
 			<div>
-				<p>
+				<p>								
 					Du hast Fragen oder Anregungen an uns? Dann kontaktiere uns ganz einfach über dieses Formular.<br>
 					Wir versuchen schnellstmöglich auf alle Anfragen zu antworten.
-					Falls du ein Mehm mit uns teilen möchtest, kannst du das <a href="mehm-einsendung"><b>hier</b></a>.
+					Falls du ein Mehm mit uns teilen möchtest, kannst du das <a href="mehm-einsendung"><b>hier</b></a>.								
 				</p>
 	
 				<form action="kontakt-formular.php" method="post">
