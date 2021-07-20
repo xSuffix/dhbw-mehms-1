@@ -29,6 +29,7 @@ figcaption {
 
 .vine {
   margin-right: auto;
+  padding-bottom: 10px;
 }
 
 .vine:nth-child(2n) {
@@ -37,8 +38,13 @@ figcaption {
 }
 
 @media only screen and (max-width: 640px) {
+  main .heading > h1 {
+      font-size: 40px;
+  }
+  main .heading > h2 {
+      font-size: x-large;
+  }
   .vine {
     width: 100%;
-    height: auto;
   }
 }

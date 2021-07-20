@@ -30,7 +30,9 @@
           <div class="number">420</div>
         </div>
         <p>
-          As a clear fan favorite, '420' has to be a part of this ranking, and its appearance is not even undeserved: the so-called "Weed Number" has also other interesting characteristics. It is divisible by its checksum and contains ...
+          As a clear fan favorite, '420' has to be a part of this ranking, and its appearance is not even
+          undeserved: the so-called "Weed Number" has also other interesting characteristics. It is divisible by its checksum and contains
+          the three smallest positive even numbers...
         </p>
         <a href="zahlen?number=420" class="learn-more">Learn more</a>
       </div>
@@ -44,7 +46,8 @@
           <div class="number">0</div>
         </div>
         <p>
-          Math without '0' does not make sense. However, doing math with '0' explicitly does not make sense as well. Fun fact: Our time ...
+          Math without '0' does not make sense. However, doing math with '0' explicitly does not make sense as well.
+          Fun fact: Our time calculation starts with the year '0'. Zero...
         </p>
         <a href="zahlen?number=0" class="learn-more">Learn more</a>
       </div>
@@ -58,7 +61,8 @@
           <div class="number">3</div>
         </div>
         <p>
-          '3' is not just a number, in this case it rather stands for the concept of trinity that is used often in pop-cultural or esoteric means ...
+          '3' is not just a number, in this case it rather stands for the concept of trinity that is used often in pop-cultural or
+          esoteric means with the basic example being the church's 'Father, Son and Holy Spirit' or the general trinity of Abrahamic...
         </p>
         <a href="zahlen?number=3" class="learn-more">Learn more</a>
       </div>
@@ -72,7 +76,8 @@
           <div class="number">42</div>
         </div>
         <p>
-          The number '42' is the most common of these numbers resulting of the well-known HHGTTG-reference of the answer to life ...
+          The number '42' is the most common of these numbers resulting of the well-known HHGTTG-reference of the answer to life the universe
+          and everything that has evolved to a popcultural phenomenon. It is also one of the best-known...
         </p>
         <a href="zahlen?number=42" class="learn-more">Learn more</a>
       </div>
@@ -86,7 +91,8 @@
           <div class="number">9</div>
         </div>
         <p>
-          <span style="text-decoration: line-through;">This is just here for the mehms.</span> The number '9' has always received a lot of fascination, mostly as a part of '19' or even '99' and ...
+          <span style="text-decoration: line-through;">This is just here for the mehms.</span> The number '9' has always received a lot of fascination, mostly as a part of '19' or even '99' and their use in literature and so on.
+          Great examples are the heavy use of 9ish numbers in the complete works of the author...
         </p>
         <a href="zahlen?number=9" class="learn-more">Learn more</a>
       </div>
@@ -100,7 +106,8 @@
           <div class="number">7</div>
         </div>
         <p>
-          And yet another number connoted with mysticism and spirituality. It is almost a guaranteed member of a fairy-tale like the ...
+          And yet another number connoted with mysticism and spirituality. It is almost a guaranteed member of a fairy-tale like the 7 dwarves
+          in Snow White and has also other interesting appearances: in the genesis, the world was created in a week that consists of...
         </p>
         <a href="zahlen?number=7" class="learn-more">Learn more</a>
       </div>
@@ -114,7 +121,8 @@
           <div class="number big">2.147.483.648</div>
         </div>
         <p>
-          The biggest number in this listing, however the most interesting fact about '2.147.483.648' is that this number does literally not exist ...
+          The biggest number in this listing, however the most interesting fact about '2.147.483.648' is
+          that this number does literally not exist in this shape. You can not count up to it, even thinking of this number is hard, as it...
         </p>
         <a href="zahlen?number=2p31" class="learn-more">Learn more</a>
       </div>
@@ -130,7 +138,9 @@
           <div class="number">1</div>
         </div>
         <p>
-          This number cannot miss the list, as it is not just the first number most people get to know, but also finding its place in most ...
+          This number cannot miss the list, as it is not just the first number most people get to know, but also finding its place in most number
+          systems, with its own being probably the weirdest one could imagine: the unary system. It is also a central part of sign-value-notation:
+          as...
         </p>
         <a href="zahlen?number=1" class="learn-more">Learn more</a>
       </div>
@@ -146,7 +156,8 @@
           <div class="number big">97379</div>
         </div>
         <p>
-          Most likely, you have never heard about this number before. It is a worthy competitor though, especially due to its aesthetics ...
+          Most likely, you have never heard about this number before. It is a worthy competitor though, especially
+          due to its aesthetics as it is not just palindromic (something that is the same back- and forwards) but also contains the artistic complementary...
         </p>
         <a href="zahlen?number=97379" class="learn-more">Learn more</a>
       </div>
