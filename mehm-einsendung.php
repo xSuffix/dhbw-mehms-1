@@ -21,8 +21,11 @@
 	<?php include("includes/header.php"); ?>
 
 	<main class="container">
+		<div class="heading">
+			<h1>Kontakt</h1>
+			<h2>Dein Mehm</h2>
+		</div>
 		<section class="paper">
-			<h1>Dein Mehm</h1>
 			<p>Du hast selbsterstellte Mehms oder Vines, die du gerne mit anderen teilen möchtest? Diese Website lebt von euren Einsendungen!<br> Außerdem wird jede Einsendung auf Einmaligkeit überprüft, daher kann es sein, dass es einige Tage dauert, bis dein Mehm auf dieser Website sichtbar wird. Wir bitten um Verständnis. </p>
 
 			<form action="mehm-formular" method="post" enctype="multipart/form-data">

@@ -14,24 +14,22 @@
       animation: 0.2s color-p-primary forwards;
     }
   </style>
-  <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="vines.css">
   <link rel="stylesheet" href="styles/global.css">
-  <link rel="stylesheet" href="numbers.css">
 </head>
 
 
 <body>
   <?php include("includes/header.php"); ?>
   <main class="container">
-  <div class="head">
+  <div class="heading">
     <h1>Vines</h1>
-    <h5>Videos, Audio und Animationen</h5>
+    <h2>Videos, Audio und Animationen</h2>
   </div>
-  <div class="body">
+  <div class="paper">
     <h3>Beispielüberschrift<pre>&lth3>Hello  ,World&lt/h3></pre></h3>
     <hr>
-    <div id="gallery" class="gallery">
+    <div class="gallery">
       <?php
 
         $dirname = "./assets/vinezz/";
@@ -49,11 +47,12 @@
           } catch (DivisionByZeroError $e) {
           }
           }
-        ?>
-      </div>
+      ?>
+    </div>
     <hr>
     <h3>External and Audio-only</h3>
     <hr>
+    <div class="gallery">
     <figure class="vine">
     <iframe class="vine" width="560px" height="315px" src="https://www.youtube.com/embed/EqekSuj5HCo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <figcaption>Walter Frosch - Vollblutprofi</figcaption>

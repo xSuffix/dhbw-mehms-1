@@ -22,9 +22,12 @@
 	<?php include("includes/header.php"); ?>
 
 	<main class="container">
+	<div class="heading">
+    <h1>Kontakt</h1>
+		<h2>Fragen und Anregungen</h2>
+  </div>
 		<section class="contact paper">
 			<div>
-				<h1>Kontakt</h1>
 				<p>
 					Du hast Fragen oder Anregungen an uns? Dann kontaktiere uns ganz einfach über dieses Formular.<br>
 					Wir versuchen schnellstmöglich auf alle Anfragen zu antworten.

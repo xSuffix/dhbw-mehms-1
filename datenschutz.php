@@ -18,10 +18,11 @@
   <?php include("includes/header.php"); ?>
 
   <main class="container">
-
-    <article class="paper">
+    <div class="heading">
       <h1>Datenschutzerklärung</h1>
-      <p>Stand: 15.05.2021, in Bearbeitung</p>
+      <h2>Stand: 15.05.2021, in Bearbeitung</h2>
+    </div>
+    <article class="paper">
       <h2>Maßgebliche Rechtsgrundlagen</h2>
       <p>Nach Maßgabe des Art. 13 <abbr title="Datenschutz-Grundverordnung"><abbr title="Datenschutz-Grundverordnung">DSGVO</abbr></abbr> teilen wir Ihnen die Rechtsgrundlagen unserer Datenverarbeitungen mit. Sofern die Rechtsgrundlage in der Datenschutzerklärung nicht genannt wird, gilt Folgendes: Die Rechtsgrundlage für die Einholung von Einwilligungen ist Art. 6 Abs. 1 lit. a und Art. 7 <abbr title="Datenschutz-Grundverordnung">DSGVO</abbr>, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer Leistungen und Durchführung vertraglicher Maßnahmen sowie Beantwortung von Anfragen ist Art. 6 Abs. 1 lit. b <abbr title="Datenschutz-Grundverordnung">DSGVO</abbr>, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer rechtlichen Verpflichtungen ist Art. 6 Abs. 1 lit. c <abbr title="Datenschutz-Grundverordnung">DSGVO</abbr>, und die Rechtsgrundlage für die Verarbeitung zur Wahrung unserer berechtigten Interessen ist Art. 6 Abs. 1 lit. f <abbr title="Datenschutz-Grundverordnung">DSGVO</abbr>. Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten erforderlich machen, dient Art. 6 Abs. 1 lit. d <abbr title="Datenschutz-Grundverordnung">DSGVO</abbr> als Rechtsgrundlage.</p>
       <h2>Änderungen und Aktualisierungen der Datenschutzerklärung</h2>
