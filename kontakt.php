@@ -31,6 +31,8 @@
 				<p>
 					Falls du gerne mehr über uns erfahren möchtest: <br> Hier kannst du dich für unseren Newsletter amelden, um Informationen über unsere Projekte und unser <strong>Mehm of the Month</strong> zu erhalten!
 				</p>
+				<h4> Mehm of the Month (Juli 2021):</h4>
+				<img src="assets/mehms/rick.gif" alt="good old Rick">
 				<button>Registrieren</button>
 			</aside>
 			<section class="contact paper">
