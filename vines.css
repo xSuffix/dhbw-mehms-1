@@ -36,33 +36,9 @@ figcaption {
   margin-left: auto;
 }
 
-/* @media screen and (max-width: 1075px) {
-  .gallery {
-    text-align: center;
-  }
-
-  .vine {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .vine:nth-child(2n) {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    text-align: left;
-  }
-} */
-
 @media only screen and (max-width: 640px) {
   .vine {
     width: 100%;
     height: auto;
   }
 }
-
-/* @media screen and (max-width: 1050px) and (min-width: 1000px) {
-  .vine {
-    width: 480px;
-  }
-} */

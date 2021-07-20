@@ -154,6 +154,7 @@
     <section class="info">
       <hr>
       <h3>Honorable mentions: those who did not make it</h3>
+      <hr>
       <p>
         Before we will finish with our #1 pick, we want to present you a few honorable mentions that were quite close but in the end
         did not make it into the final list. We had the number <span class="blue">79997</span>, a palindromic prime number with a weird shape. However,
