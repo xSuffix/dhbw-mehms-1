@@ -3,7 +3,6 @@
 
 <head>
 	<title>Impressum - DHBW Mehms</title>
-	<link href="styles/global.css" rel="stylesheet">
 	<?php include("includes/meta.php"); ?>
 	<style>
 		:root {

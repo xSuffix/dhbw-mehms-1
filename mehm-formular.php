@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
 	<head>
-		<link href="styles/global.css" rel="stylesheet">
 		<link href="styles/formular.css" rel="stylesheet">
 		<meta charset="UTF-8"> 
 		<title> Dein Mehm - upload </title>
