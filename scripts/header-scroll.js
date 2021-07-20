@@ -1,12 +1,13 @@
 // Hide when user scrolls down, show when user scrolls up
 
 document.addEventListener('DOMContentLoaded', function () {
-  var body = document.body;
-  var pageHeader = document.getElementById("header-wrapper");
-  var prevScrollPos = window.pageYOffset;
+
+  const body = document.body;
+  const pageHeader = document.getElementById("header-wrapper");
+  let prevScrollPos = window.pageYOffset;
   window.onscroll = function () {
 
-    var currentScrollPos = window.pageYOffset;
+    let currentScrollPos = window.pageYOffset;
 
     if (currentScrollPos > 80) {
       body.classList.add("scrolled");

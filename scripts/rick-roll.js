@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-  var gallery = document.getElementById("gallery");
+  var gallery = document.getElementById("mehm-gallery");
   gallery.onclick = function () {
     if (localStorage.getItem("rick") != "rolled") {
       let imageCount = gallery.getElementsByTagName("img").length;
