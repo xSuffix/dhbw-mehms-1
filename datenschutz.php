@@ -3,12 +3,11 @@
 
 <head>
   <title>Datenschutz - DHBW Mehms</title>
-  <link href="styles/global.css" rel="stylesheet">
   <?php include("includes/meta.php"); ?>
   <style>
     :root {
-      --banner-top: #b167eb;
-      --banner-bottom: #4bd8f6;
+      --banner-top: #b73111;
+			--banner-bottom: #7d4bf6;
     }
   </style>
 </head>

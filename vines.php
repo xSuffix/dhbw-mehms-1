@@ -3,6 +3,7 @@
 
 <head>
   <title>Vines - DHBW Mehms</title>
+  <link href="styles/vines.css" rel="stylesheet">
   <?php include("includes/meta.php"); ?>
   <style>
     :root {
@@ -14,8 +15,6 @@
       animation: 0.2s color-p-primary forwards;
     }
   </style>
-  <link rel="stylesheet" href="vines.css">
-  <link rel="stylesheet" href="styles/global.css">
 </head>
 
 

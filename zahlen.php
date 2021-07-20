@@ -3,18 +3,18 @@
 
 <head>
   <title>Math - DHBW Mehms</title>
+  <link href="styles/numbers.css" rel="stylesheet">
   <?php include("includes/meta.php"); ?>
   <style>
     :root {
-      --banner-top: #b167eb;
-      --banner-bottom: #4bd8f6;
+      --banner-top: #c5c5c5;
+      --banner-bottom: #64b1c1;
     }
 
     .zahlen {
       animation: 0.2s color-p-primary forwards;
     }
   </style>
-  <link rel="stylesheet" href="numbers.css">
 </head>
 
 
