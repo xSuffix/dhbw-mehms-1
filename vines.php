@@ -31,17 +31,15 @@
     <div class="gallery">
       <?php
 
-        $dirname = "./assets/vinezz/";
+        $dirname = "./assets/vines/";
         $videos = glob($dirname . "*" . "*");
 
         foreach ($videos as $video) {
           $videoName = explode("/", $video);
           $videoName = end($videoName);
-          $title = explode(".",$videoName);
-          $title = $title[0];
           try {
             echo '<figure class="vine"><video class="vine" width="560" height="315" controls><source src="' . $video . '" type="video/mp4">Your browser does not support the video tag.
-            </video><figcaption>' . $title . '</figcaption>
+            </video><figcaption>' . $videoName . '</figcaption>
             </figure>';
           } catch (DivisionByZeroError $e) {
           }
@@ -73,7 +71,7 @@
       <figcaption>Shhh... Melon Thief</figcaption>
     </figure>
     <figure class ="vine">
-      <audio class="vine" controls><source src="assets/audio/udjjd.mp3" type="audio/mp3"></audio>
+      <audio class="vine" controls><source src="assets/audio/audio.mp3" type="audio/mp3"></audio>
       <figcaption>Rick Astley - Never gonna give you up</figcaption>
     </figure>
     </div>
