@@ -17,4 +17,5 @@
         and represents incomplete magnitude or some form of final infinity.
       </p>
     </div>
+  </div>
 </main>
