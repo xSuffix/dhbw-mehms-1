@@ -144,5 +144,32 @@
         <a href="zahlen?number=404" class="learn-more">Learn more</a>
       </div>
     </section>
+    <section class="info">
+      <hr>
+      <h3>Overview: the numbers</h3>
+      <hr>
+      <table>
+        <caption>The Top 10 Numbers (2021/07):</caption>
+        <thead>
+          <td>Placement</td><th>Number</th>
+        </thead>
+        <tbody>
+          <tr><td>10</td><th>420</th></tr>
+          <tr><td>9</td><th>0</th></tr>
+          <tr><td>8</td><th>3</th></tr>
+          <tr><td>7</td><th>42</th></tr>
+          <tr><td>6</td><th>9</th></tr>
+          <tr><td>5</td><th>7</th></tr>
+          <tr><td>4</td><th>2.147.483.648</th></tr>
+          <tr><td>3</td><th>1</th></tr>
+          <tr><td>2</td><th>97379</th></tr>
+        </tbody>
+        <tfoot>
+          <td>1</td><th>404</th>
+        </tfoot>
+      </table>
+      <hr>
+
+    </section>    
   </article>
 </main>
