@@ -117,6 +117,10 @@ main aside p {
 	color: #ccc;
 }
 
+main aside h4 {
+	color: #ddd;
+}
+
 main aside button {
 	max-width: 100%;
 }

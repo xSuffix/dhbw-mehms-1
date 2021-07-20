@@ -15,6 +15,11 @@
 			animation: 0.2s color-p-primary forwards;
 		}
 	</style>
+	<script>
+		function playAudio() {
+			new Audio('https://www.soundboard.com/mediafiles/mz/Mzg1ODMxNTIzMzg1ODM3_JzthsfvUY24.MP3').play();
+		}
+	</script>
 </head>
 
 
@@ -33,7 +38,7 @@
 				</p>
 				<h4> Mehm of the Month (Juli 2021):</h4>
 				<img src="assets/mehms/rick.gif" alt="good old Rick">
-				<button>Registrieren</button>
+				<button onclick="playAudio()">Registrieren</button>
 			</aside>
 			<section class="contact paper">
 				<div>
