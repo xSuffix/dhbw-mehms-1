@@ -237,8 +237,6 @@
           <th>404</th>
         </tfoot>
       </table>
-      <hr>
-
     </section>
   </article>
 </main>

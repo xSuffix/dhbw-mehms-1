@@ -10,7 +10,7 @@
       --banner-bottom: #4bd8f6;
     }
 
-    .vines {
+    .zahlen {
       animation: 0.2s color-p-primary forwards;
     }
   </style>

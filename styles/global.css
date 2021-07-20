@@ -119,6 +119,32 @@ summary {
 	padding: 1rem;
 }
 
+.paper h3 {
+  text-align: center;
+}
+
+.paper hr {
+  margin: 2rem 0;
+  border-color: var(--color-primary);
+}
+
+.heading {
+  margin-bottom: 4rem;
+}
+
+.heading > * {
+  color: whitesmoke;
+  margin: 0;
+}
+
+.heading h1 {
+  font-size: 3.5rem;
+}
+
+.heading h2 {
+  font-size: 2rem;
+}
+
 #header-wrapper {
   width: 100%;
   z-index: 32;
