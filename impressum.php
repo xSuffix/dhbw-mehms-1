@@ -7,8 +7,8 @@
   <?php include("includes/meta.php"); ?>
   <style>
     :root {
-      --banner-top: #b167eb;
-      --banner-bottom: #4bd8f6;
+      --banner-top: #b73111;
+      --banner-bottom: #cc4bf6;
     }
   </style>
 </head>
@@ -26,12 +26,12 @@
 	</p>
 	<h3 class='document'>Vertreten durch:</h3>
 	<ol>
-		<li></li>
+		<li>2032766 (Jan)</li>
 		<li>2318815 (Gabriel)</li>
 		<li>1145498 (Miri)<br></li>
 	</ol>
 	<h3 class='document'>Kontakt:</h3>
-	<p class='document'>Telefon:97379-420034297<br>
+	<p class='document'>Telefon: 97379-420034297<br>
 	E-Mail: <a class='document' href='mailto:mehms4DHBW@gmail.com'>mehms4DHBW@gmail.com</a></p>
 	
 	<h2 class='document'>Haftung für Inhalte</h2>

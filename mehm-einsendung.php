@@ -8,10 +8,10 @@
 	<style>
 		:root {
 			--banner-top: #67bfeb;
-			--banner-bottom: #b97c20;
+			--banner-bottom: #ff9900;
 		}
 
-		.zitate {
+		.kontakt {
 			animation: 0.2s color-p-primary forwards;
 		}
 	</style>
@@ -22,7 +22,7 @@
 
 	<main class="container">
 		<section>
-			<h1> Dein Mehm </h1>
+			<h1>Dein Mehm</h1>
 			<p>Du hast selbsterstellte Mehms, Vines oder Zitate, die du gerne mit anderen teilen möchtest? Diese Website lebt von euren Einsendungen!<br> Außerdem wird jede Einsendung auf Einmaligkeit überprüft, daher kann es sein, dass es einige Tage dauert, bis dein Mehm auf dieser Website sichtbar wird. Wir bitten um Verständnis. </p>
 
 			<form action="mehm-formular" method="post" enctype="multipart/form-data">
@@ -41,11 +41,11 @@
 				<button> Absenden </button>
 			</form>
 
-			<p> Bitte sende nur selbsterstellte Mehms ein. <em>Keiner mag geklaute Mehms!</em>
+			<p>Bitte sende nur selbsterstellte Mehms ein. <em>Keiner mag geklaute Mehms!</em>
 				<br>Außerdem erheben wir keinerlei Anspruch auf die hier veröffentlichten Bilder.
 			</p>
 			<details>
-				<summary> Mehr zum Thema Urheberrecht </Summary>
+				<summary>Mehr zum Thema Urheberrecht</Summary>
 
 				<p>Das Urheberrecht schützt den Urheber in seinen geistigen und persönlichen Beziehungen zum Werk und in der Nutzung des Werkes. Es dient zugleich der Sicherung einer angemessenen Vergütung für die Nutzung des Werkes.</p>
 
@@ -181,6 +181,7 @@
 		</section>
 	</main>
 
+	<?php include("includes/footer.php"); ?>
 	<?php include("includes/bottom-navigation.php"); ?>
 </body>
 

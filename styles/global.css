@@ -28,7 +28,9 @@ xl > 1536px
   --color-bg: hsl(240, 7%, 97%);
   --color-bg-a: hsl(240, 7%, 97%, 0.9);
   --color-bg2: #fff;
-  --color-bg3: hsla(223, 60%, 86%, 0.9);
+  --color-bg2-a: #ffffffb0;
+  --color-bg3: hsla(223, 60%, 86%, 0.8);
+
   --color-s: #000;
   --color-h: #222;
   --color-p: #333;
@@ -44,7 +46,8 @@ xl > 1536px
   --color-bg: hsl(205, 76%, 5%);
   --color-bg-a: hsla(205, 76%, 5%, 0.9);
   --color-bg2: rgb(8, 21, 33);
-  --color-bg3: hsla(223, 90%, 12%, 0.69);
+  --color-bg2-a: #081521b0;
+  --color-bg3: hsla(223, 90%, 12%, 0.8);
   --color-s: #fff;
   --color-h: #ddd;
   --color-p: #ccc;
@@ -105,9 +108,6 @@ summary {
   max-width: 80rem;
   margin-left: auto;
   margin-right: auto;
-}
-
-.container:not(.md) {
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -198,12 +198,11 @@ footer {
   margin-top: 1rem;
   justify-content: space-between;
   z-index: 128;
-  border-radius: 4px 4px 0 0;
+  padding: 0 !important;
 }
 
 footer > .container {
-  /* background: var(--color-bg3);
-  background: var(--color-bg2); */
+  background: var(--color-bg);
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: inherit;
@@ -302,11 +301,6 @@ footer .social-icons a img {
 }
 
 @media (min-width: 640px) {
-.container.md {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
   #header-wrapper {
     position: absolute;
     top: -80px;
@@ -340,6 +334,10 @@ footer .social-icons a img {
   .header-spacer {
     height: 128px;
     margin-bottom: 16px;
+  }
+
+  footer {
+    border-radius: 4px;
   }
   
   .bottom-navigation {

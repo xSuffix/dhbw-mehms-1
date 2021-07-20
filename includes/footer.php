@@ -1,4 +1,4 @@
-<footer class="container md">
+<footer class="container">
   <div class="container">
     <div>
       <section class="about">

@@ -1,5 +1,6 @@
 main > section {
-	background: var(--color-bg3);
+	background: var(--color-bg2-a);
+	border: 1px solid var(--color-bg);
 	border-radius: 4px;
 	padding: 1rem;
 }
@@ -33,7 +34,7 @@ main textarea {
 	height: 10rem;
 	max-width: 100%;
 	min-width: 100%;
-	min-height: 37px;
+	min-height: 39px;
 }
 
 main button {
@@ -44,6 +45,7 @@ main button {
 	border-radius: 4px;
 	width: 100%;
 	padding: 0.5rem;
+	border: none;
 }
 
 main button, main input[type="file"], main summary {
@@ -68,6 +70,9 @@ main article {
 
 main article {
 	padding: 1rem;
+	margin-left: -16px;
+	margin-right: -16px;
+	width: calc(100% + 32px);
 }
 
 main input,
@@ -77,11 +82,15 @@ main label,
 main select {
 	font-family: var(--font-sans);
 	font-size: 1rem;
-	border: none;
+	
 }
 
 main form {
 	margin: 2rem 0;
+}
+
+main a {
+	color: var(--color-s);
 }
 
 main a:hover {

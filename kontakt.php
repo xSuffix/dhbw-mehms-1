@@ -21,7 +21,7 @@
 <body>
 	<?php include("includes/header.php"); ?>
 
-	<main class="container md">
+	<main class="container">
 		<section class="contact">
 			<div>
 				<h1>Kontakt</h1>
