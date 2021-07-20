@@ -33,11 +33,12 @@ main textarea {
 	height: 10rem;
 	max-width: 100%;
 	min-width: 100%;
+	min-height: 37px;
 }
 
 main button {
 	background: var(--color-primary);
-	color: var(--color-h);
+	color: #fff;
 	font-weight: 500;
 	margin-top: 1rem;
 	border-radius: 4px;
@@ -45,12 +46,13 @@ main button {
 	padding: 0.5rem;
 }
 
-main button:hover {
+main button, main input[type="file"], main summary {
 	cursor: pointer;
 }
 
 main input[type="file"]::-webkit-file-upload-button {
 	margin-right: 0.5rem;
+	cursor: pointer;
 }
 
 main input,

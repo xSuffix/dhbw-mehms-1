@@ -24,10 +24,14 @@ xl > 1536px
 
 :root {
   --color-primary: #6787F5;
-  --color-bg: #f7f7f8;
+  --color-secondary: #FF355E;
+  --color-bg: hsl(240, 7%, 97%);
+  --color-bg-a: hsl(240, 7%, 97%, 0.9);
   --color-bg2: #fff;
+  --color-bg3: hsla(223, 60%, 86%, 0.9);
+  --color-s: #000;
   --color-h: #222;
-  --color-p: #666;
+  --color-p: #333;
   --color-p-a: #666666cc;
   --color-border: #222;
   --stroke-heading: -1px -1px 0 var(--color-border), 0 -1px 0 var(--color-border), 1px -1px 0 var(--color-border), 1px 0 0 var(--color-border), 1px 1px 0 var(--color-border), 0 1px 0 var(--color-border), -1px 1px 0 var(--color-border), -1px 0 0 var(--color-border);
@@ -37,10 +41,11 @@ xl > 1536px
 }
 
 :root .dark {
-  --color-bg: #030e16;
-  --color-bg-a: #030e16cc;
+  --color-bg: hsl(205, 76%, 5%);
+  --color-bg-a: hsla(205, 76%, 5%, 0.9);
   --color-bg2: rgb(8, 21, 33);
-  --color-bg3: rgba(15, 28, 61, 0.69);
+  --color-bg3: hsla(223, 90%, 12%, 0.69);
+  --color-s: #fff;
   --color-h: #ddd;
   --color-p: #ccc;
   --color-p-a: #bababacc;
@@ -60,7 +65,11 @@ h1, h2, h3 {
 
 a {
   text-decoration: none;
-  color: var(--color-h);
+  color: var(--color-p);
+}
+
+a:hover {
+  color: var(--color-s);
 }
 
 /* Remove 000webhost overlay */
@@ -73,7 +82,6 @@ p {
 }
 
 summary {
-  cursor: pointer;
   color: var(--color-h);
 }
 
@@ -86,19 +94,22 @@ summary {
 }
 
 .i-phone::before {
-  content: "\e904";
+  content: "\e902";
 }
 
 .i-printer::before {
-  content: "\e905";
+  content: "\e903";
 }
 
 .container {
   max-width: 80rem;
-  padding-left: 16px;
-  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.container:not(.md) {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 #header-wrapper {
@@ -154,7 +165,7 @@ header > nav a {
 }
 
 header > nav a:hover {
-  color: #FF355E;
+  color: var(--color-secondary);
 }
 
 .logo {
@@ -191,7 +202,8 @@ footer {
 }
 
 footer > .container {
-  background: #081520;
+  /* background: var(--color-bg3);
+  background: var(--color-bg2); */
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: inherit;
@@ -201,18 +213,55 @@ footer > .container > div {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem 4rem;
+  margin: 0 auto;
+}
+
+footer section {
+  max-width: 320px;
+  padding: 0 16px;
+  flex: 120px 1 1;
 }
 
 footer p {
   margin: 0.75rem 0;
 }
 
-footer a {
-  color: var(--color-primary);
+footer strong {
+  color: var(--color-h);
 }
 
 footer .h-icon {
   margin-right: 8px;
+  color: var(--color-primary);
+}
+
+footer .about {
+  flex-grow: 10;
+}
+
+footer .sitemap a::before {
+  content: "\e900";
+  font-family: var(--font-icon);
+  height: 21px !important;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+  color: var(--color-secondary);
+}
+
+footer .social-icons {
+  margin: 1rem 0;
+}
+
+footer .social-icons a {
+  display: inline-block;
+  background: #fff;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+footer .social-icons a img {
+  display: block;
 }
 
 .bottom-navigation {
@@ -253,6 +302,11 @@ footer .h-icon {
 }
 
 @media (min-width: 640px) {
+.container.md {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
   #header-wrapper {
     position: absolute;
     top: -80px;
