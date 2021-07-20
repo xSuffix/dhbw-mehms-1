@@ -1,9 +1,9 @@
 <main class="container">
-  <div class="head">
+  <div class="heading">
     <h1>97379</h1>
-    <h5 style="margin-left: auto">The Underdog</h5>
+    <h2>The Underdog</h2>
   </div>
-  <div class="body" style="padding-bottom: 0">
+  <div class="paper" style="padding-bottom: 0">
     <div class="firstrow">
       <h3><span class="left">More information: 97379</span></h3>
       <hr>
