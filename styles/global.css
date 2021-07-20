@@ -28,7 +28,7 @@ xl > 1536px
   --color-bg: hsl(240, 7%, 97%);
   --color-bg-a: hsl(240, 7%, 97%, 0.9);
   --color-bg2: #fff;
-  --color-bg2-a: #ffffffb0;
+  --color-bg2-a: #ffffff;
   --color-bg3: hsla(223, 60%, 86%, 0.8);
 
   --color-s: #000;
@@ -46,7 +46,7 @@ xl > 1536px
   --color-bg: hsl(205, 76%, 5%);
   --color-bg-a: hsla(205, 76%, 5%, 0.9);
   --color-bg2: rgb(8, 21, 33);
-  --color-bg2-a: #081521b0;
+  --color-bg2-a: #081521c4;
   --color-bg3: hsla(223, 90%, 12%, 0.8);
   --color-s: #fff;
   --color-h: #ddd;

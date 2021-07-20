@@ -32,7 +32,7 @@
           
         </div> -->
         <p>
-        As a clear fan favorite, '420' has to be a part of this ranking, and its appearance is not even undeserved: the so-called "Weed Number" has also other interesting characteristics. It is divisible by its checksum and contains ...
+          As a clear fan favorite, '420' has to be a part of this ranking, and its appearance is not even undeserved: the so-called "Weed Number" has also other interesting characteristics. It is divisible by its checksum and contains ...
         </p>
         <a href="zahlen?number=420" class="learn-more">Learn more</a>
       </div>
@@ -48,7 +48,13 @@
       </div>
       <div class="place p8">
         <div>
-          <div class="medal-circle">8</div>
+          <div class="medal">
+            <div class="medal-circle">
+              8
+            </div>
+            <div class="medal-ribbon medal-ribbon-left"></div>
+            <div class="medal-ribbon medal-ribbon-right"></div>
+          </div>
           <div class="number">3</div>
         </div>
         <p>
@@ -98,7 +104,13 @@
       </div>
       <div class="place p3">
         <div>
-          <div class="medal-circle">3</div>
+          <div class="medal">
+            <div class="medal-circle">
+              3
+            </div>
+            <div class="medal-ribbon medal-ribbon-left"></div>
+            <div class="medal-ribbon medal-ribbon-right"></div>
+          </div>
           <div class="number">1</div>
         </div>
         <p>
