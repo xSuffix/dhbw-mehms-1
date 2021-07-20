@@ -3,7 +3,7 @@
 
 <head>
 	<title>Kontakt - DHBW Mehms</title>
-	<link href="styles/kontakt.css" rel="stylesheet">
+	<link href="styles/formular.css" rel="stylesheet">
 	<?php include("includes/meta.php"); ?>
 	<style>
 		:root {
@@ -31,7 +31,7 @@
 					Falls du ein Mehm mit uns teilen möchtest, kannst du das <a href="mehm-einsendung"><b>hier</b></a>.
 				</p>
 	
-				<form action="kontaktFormular.php" method="post">
+				<form action="kontakt-formular.php" method="post">
 					<label for="name" class="required">Name</label>
 					<input id="name" type="text" placeholder="Name" required name="kName">
 					<label for="nachricht" class="required">Nachricht</label>

@@ -3,7 +3,7 @@
 
 <head>
 	<title>Dein Mehm - DHBW Mehms</title>
-	<link href="styles/kontakt.css" rel="stylesheet">
+	<link href="styles/formular.css" rel="stylesheet">
 	<?php include("includes/meta.php"); ?>
 	<style>
 		:root {
