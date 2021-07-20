@@ -27,7 +27,7 @@
     <h2>Videos, Audio und Animationen</h2>
   </div>
   <div class="paper">
-    <pre><h3>Beispielüberschrift&lth3>Hello  ,World&lt/h3></h3></pre>
+    <h3>&lth3>Hello  ,World&lt/h3></h3>
     <hr>
     <div class="gallery">
       <?php

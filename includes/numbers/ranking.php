@@ -203,8 +203,10 @@
       <table>
         <caption><pre>The Top 10 Numbers (2021/07):</pre></caption>
         <thead>
-          <td>Placement</td>
-          <th>Number</th>
+          <tr>
+            <td>Placement</td>
+            <th>Number</th>
+          </tr>
         </thead>
         <tbody>
           <tr>
@@ -245,8 +247,10 @@
           </tr>
         </tbody>
         <tfoot>
-          <td>1</td>
-          <th>404</th>
+          <tr>
+            <td>1</td>
+            <th>404</th>
+          </tr>
         </tfoot>
       </table>
     </section>
