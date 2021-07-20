@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         div.appendChild(newImage);
         div.setAttribute("name", newImage.getAttribute("name"));
         mehm.appendChild(div);
-        div.innerHTML += '<div id="close-btn"><svg height="16px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14"><path fill="#081520" stroke="#fff" stroke-width=".5" d="M2.81 1.2h0a1.15 1.15 0 00-1.62 0l.1.1-.1-.1a1.15 1.15 0 000 1.63h0L5.37 7 1.2 11.2h0a1.15 1.15 0 000 1.61 1.15 1.15 0 001.62.02h0L7 8.63l4.19 4.2h0a1.15 1.15 0 001.61-.02 1.15 1.15 0 00.02-1.6h0v-.01L8.61 7l4.2-4.18a1.15 1.15 0 00.34-.82c0-.15-.03-.3-.08-.45a1.15 1.15 0 00-.63-.62 1.15 1.15 0 00-.9 0 1.15 1.15 0 00-.36.26L7 5.4l-4.19-4.2z"/></svg></div>'
+        div.innerHTML += '<div id="close-btn"><svg height="24px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><path fill="#fff" d="M4 4h8v8H4z"/><path fill="currentColor" fill-rule="evenodd" d="M8 16a8 8 0 008-8 8 8 0 00-8-8 8 8 0 00-5.657 2.343 8 8 0 000 11.314A8 8 0 008 16zM6.707 5.293a1 1 0 00-1.402.012 1 1 0 00-.012 1.402L6.586 8 5.293 9.293a1 1 0 00-.305.711 1 1 0 00.293.716 1 1 0 00.716.293 1 1 0 00.711-.305L8 9.414l1.293 1.293a1 1 0 001.402-.012 1 1 0 00.012-1.402L9.414 8l1.293-1.293a1 1 0 00-.012-1.402 1 1 0 00-1.402-.012L8 6.586 6.707 5.293z"/></svg></div>'
         const closebtn = document.getElementById("close-btn")
         closebtn.addEventListener('click', function (e) {
           e.stopPropagation();
