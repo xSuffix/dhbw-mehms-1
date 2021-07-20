@@ -47,6 +47,10 @@ main button {
 	border: none;
 }
 
+main button:hover {
+	background: linear-gradient(180deg, rgba(103,135,245,1) 0%, rgba(103,103,245,1) 100%);
+}
+
 main button, main input[type="file"], main summary {
 	cursor: pointer;
 }
