@@ -268,16 +268,6 @@ footer .about {
   flex-grow: 10;
 }
 
-footer .sitemap a::before {
-  content: "\e900";
-  font-family: var(--font-icon);
-  height: 21px !important;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 4px;
-  color: var(--color-secondary);
-}
-
 footer .social-icons {
   margin: 1rem 0;
   display: flex;
@@ -296,6 +286,16 @@ footer .social-icons a {
 
 footer .social-icons a img {
   display: block;
+}
+
+footer .sitemap a::before {
+  content: "\e900";
+  font-family: var(--font-icon);
+  height: 21px !important;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+  color: var(--color-secondary);
 }
 
 footer a:hover {
