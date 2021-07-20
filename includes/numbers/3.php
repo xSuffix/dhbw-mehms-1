@@ -18,4 +18,5 @@
         That way there is a lot of trinity everywhere: three siblings, three hairs, three kings and so on.
       </p>
     </div>
+  </div>
 </main>

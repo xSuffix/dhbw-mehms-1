@@ -17,4 +17,5 @@
           article by clicking this sentence.</a>
       </p>
     </div>
+  </div>
 </main>

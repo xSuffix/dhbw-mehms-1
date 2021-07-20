@@ -17,4 +17,5 @@
         We got 7 sins and 7 virtues, 7-league boots and the 7 horcruxes of the Harry Potter septology.
       </p>
     </div>
+  </div>
 </main>

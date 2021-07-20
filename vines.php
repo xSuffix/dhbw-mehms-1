@@ -26,7 +26,7 @@
     <h2>Videos, Audio und Animationen</h2>
   </div>
   <div class="paper">
-    <h3>&lth3>Hello  ,World&lt/h3></h3>
+    <h3>Vines</h3>
     <hr>
     <div class="gallery">
       <?php

@@ -17,4 +17,5 @@
         Current scientific view states they are just a bit away from full comprehension of the number.
       </p>
     </div>
+  </div>
 </main>

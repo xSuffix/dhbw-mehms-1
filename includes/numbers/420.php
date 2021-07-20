@@ -18,4 +18,5 @@
         so special.
       </p>
     </div>
+  </div>
 </main>
