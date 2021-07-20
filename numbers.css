@@ -25,7 +25,7 @@ table {
 }
 thead {
   border-bottom: solid 1px var(--color-p-a);
-  background-color: var(--color-bg);
+  background-color: var(--color-primary);
 }
 tbody > tr {
   background-color: var(--color-bg);
