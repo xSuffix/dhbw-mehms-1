@@ -2,7 +2,7 @@ main .heading {
   margin-bottom: 4rem;
 }
 
-main .heading > * {
+main .heading>* {
   color: whitesmoke;
   margin: 0;
 }
@@ -22,20 +22,26 @@ table {
   margin-right: auto;
   border-collapse: collapse;
   border-spacing: 100px 20px;
+  border-radius: 4px;
 }
+
 thead {
   border-bottom: solid 1px var(--color-p-a);
   background-color: var(--color-bg);
 }
+
 tbody > tr {
   background-color: var(--color-bg);
 }
+
 tbody > tr:nth-child(2n+1) {
   background-color: var(--color-bg2);
 }
+
 tfoot {
   background-color: var(--color-bg);
 }
+
 td {
   padding: 5px 10px;
   border-right: solid 1px var(--color-p-a); 
@@ -49,9 +55,9 @@ th {
 
 main article {
   background: var(--color-bg2);
-	border: 1px solid var(--color-p-a);
-	border-radius: 4px;
-	padding: 1rem;
+  border: 1px solid var(--color-p-a);
+  border-radius: 4px;
+  padding: 1rem;
 }
 
 main h3 {
@@ -60,7 +66,7 @@ main h3 {
 
 main section {
   max-width: 960px;
-  margin: 4rem auto;  
+  margin: 4rem auto;
 }
 
 main hr {
@@ -73,11 +79,11 @@ main p {
   text-align: justify;
 }
 
-main .place + .place {
+main .place+.place {
   margin-top: 2rem;
 }
 
-main .place > div {
+main .place>div {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -85,23 +91,25 @@ main .place > div {
 
 
 main .number {
-  font-size: 6rem;
+  font-size: 5rem;
   color: var(--color-h);
   font-weight: bold;
   text-align: center;
-  width: 224px;
-  max-width: 352px;
+  width: 352px;
+  padding: 0 1rem;
   margin: 0 auto;
   display: inline-block;
   line-break: anywhere;
 }
 
 main .number.big {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 main .medal {
-  margin: 0 auto;
+  margin-left: auto;
+  z-index: 8;
+  position: relative;
 }
 
 main .medal-circle {
@@ -116,7 +124,6 @@ main .medal-circle {
   align-items: center;
   border-width: 0.2em;
   border-style: solid;
-  z-index: 1;
   margin: 0 auto;
 
   box-shadow: inset 0 0 0 #9ca5c3, 2px 2px 0 rgb(0 0 0 / 8%);
@@ -154,12 +161,19 @@ main .medal-ribbon {
   width: 0;
   height: 20px;
   top: 50px;
+  z-index: -1;
 }
 
 main .medal-ribbon-left {
   border-color: #FC402D #FC402D transparent #FC402D;
-  left: 8px;
+  left: calc(50% - 20px);
   transform: rotate(20deg) translateZ(-32px);
+}
+
+main .medal-ribbon-right {
+  left: calc(50%);
+  border-color: #f31903 #f31903 transparent #f31903;
+  transform: rotate(-20deg) translateZ(-48px);
 }
 
 main .learn-more {

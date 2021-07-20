@@ -22,15 +22,13 @@
     <section class="content">
       <div class="place p10">
         <div>
-          <div class="medal-circle">10</div>
+          <div class="medal">
+            <div class="medal-circle">
+              10
+            </div>
+          </div>
           <div class="number">420</div>
         </div>
-        <!-- <div>
-          <div class="number">420
-            <div class="medal">10</div>
-          </div>
-          
-        </div> -->
         <p>
           As a clear fan favorite, '420' has to be a part of this ranking, and its appearance is not even undeserved: the so-called "Weed Number" has also other interesting characteristics. It is divisible by its checksum and contains ...
         </p>
@@ -38,7 +36,11 @@
       </div>
       <div class="place p9">
         <div>
-          <div class="medal-circle">9</div>
+          <div class="medal">
+            <div class="medal-circle">
+              9
+            </div>
+          </div>
           <div class="number">0</div>
         </div>
         <p>
@@ -52,8 +54,6 @@
             <div class="medal-circle">
               8
             </div>
-            <div class="medal-ribbon medal-ribbon-left"></div>
-            <div class="medal-ribbon medal-ribbon-right"></div>
           </div>
           <div class="number">3</div>
         </div>
@@ -64,7 +64,11 @@
       </div>
       <div class="place p7">
         <div>
-          <div class="medal-circle">7</div>
+          <div class="medal">
+            <div class="medal-circle">
+              7
+            </div>
+          </div>
           <div class="number">42</div>
         </div>
         <p>
@@ -74,7 +78,11 @@
       </div>
       <div class="place p6">
         <div>
-          <div class="medal-circle">6</div>
+          <div class="medal">
+            <div class="medal-circle">
+              6
+            </div>
+          </div>
           <div class="number">9</div>
         </div>
         <p>
@@ -84,7 +92,11 @@
       </div>
       <div class="place p5">
         <div>
-          <div class="medal-circle">5</div>
+          <div class="medal">
+            <div class="medal-circle">
+              5
+            </div>
+          </div>
           <div class="number">7</div>
         </div>
         <p>
@@ -94,7 +106,11 @@
       </div>
       <div class="place p4">
         <div>
-          <div class="medal-circle">4</div>
+          <div class="medal">
+            <div class="medal-circle">
+              4
+            </div>
+          </div>
           <div class="number big">2.147.483.648</div>
         </div>
         <p>
@@ -120,7 +136,13 @@
       </div>
       <div class="place p2">
         <div>
-          <div class="medal-circle">2</div>
+          <div class="medal">
+            <div class="medal-circle">
+              2
+            </div>
+            <div class="medal-ribbon medal-ribbon-left"></div>
+            <div class="medal-ribbon medal-ribbon-right"></div>
+          </div>
           <div class="number big">97379</div>
         </div>
         <p>
@@ -147,7 +169,13 @@
     <section class="content">
       <div class="place p1">
         <div>
-          <div class="medal-circle">1</div>
+          <div class="medal">
+            <div class="medal-circle">
+              1
+            </div>
+            <div class="medal-ribbon medal-ribbon-left"></div>
+            <div class="medal-ribbon medal-ribbon-right"></div>
+          </div>
           <div class="number">404</div>
         </div>
         <p>
@@ -163,25 +191,54 @@
       <table>
         <caption><pre>The Top 10 Numbers (2021/07):</pre></caption>
         <thead>
-          <td>Placement</td><th>Number</th>
+          <td>Placement</td>
+          <th>Number</th>
         </thead>
         <tbody>
-          <tr><td>10</td><th>420</th></tr>
-          <tr><td>9</td><th>0</th></tr>
-          <tr><td>8</td><th>3</th></tr>
-          <tr><td>7</td><th>42</th></tr>
-          <tr><td>6</td><th>9</th></tr>
-          <tr><td>5</td><th>7</th></tr>
-          <tr><td>4</td><th>2.147.483.648</th></tr>
-          <tr><td>3</td><th>1</th></tr>
-          <tr><td>2</td><th>97379</th></tr>
+          <tr>
+            <td>10</td>
+            <th>420</th>
+          </tr>
+          <tr>
+            <td>9</td>
+            <th>0</th>
+          </tr>
+          <tr>
+            <td>8</td>
+            <th>3</th>
+          </tr>
+          <tr>
+            <td>7</td>
+            <th>42</th>
+          </tr>
+          <tr>
+            <td>6</td>
+            <th>9</th>
+          </tr>
+          <tr>
+            <td>5</td>
+            <th>7</th>
+          </tr>
+          <tr>
+            <td>4</td>
+            <th>2.147.483.648</th>
+          </tr>
+          <tr>
+            <td>3</td>
+            <th>1</th>
+          </tr>
+          <tr>
+            <td>2</td>
+            <th>97379</th>
+          </tr>
         </tbody>
         <tfoot>
-          <td>1</td><th>404</th>
+          <td>1</td>
+          <th>404</th>
         </tfoot>
       </table>
       <hr>
 
-    </section>    
+    </section>
   </article>
 </main>
