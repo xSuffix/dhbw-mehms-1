@@ -64,7 +64,6 @@ main .place>div {
   justify-content: space-around;
 }
 
-
 main .number {
   font-size: 5rem;
   color: var(--color-h);
@@ -157,6 +156,10 @@ main .learn-more {
   text-transform: uppercase;
   text-align: right;
   display: block;
+}
+
+main .learn-more:hover {
+  text-decoration: underline;
 }
 
 #return {
