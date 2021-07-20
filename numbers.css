@@ -42,7 +42,11 @@ main h3 {
 
 main section {
   max-width: 960px;
-  margin: 4rem auto;
+  margin: 25px auto;
+}
+
+main section + section {
+  margin-top: 4rem;
 }
 
 main p {
