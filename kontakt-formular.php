@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 	<head>
+		<link href="styles/global.css" rel="stylesheet">
 		<link href="styles/formular.css" rel="stylesheet">
 		<meta charset="UTF-8"> 
 		<title> Kontaktformular - erfolgreich gesendet </title>
@@ -17,7 +18,7 @@
 	<body>
 	<?php include("includes/header.php"); ?>	
 	<main class="container">
-	<section>
+	<section class="paper">
 		<h2>Sehr geehrte/-r 
 		<strong>
 		<?php
@@ -25,20 +26,20 @@
 		?>
 		</strong>
 		</h2>
-		Vielen Dank, dass du uns diese Nachricht gesendet hast:
-		<div>
+			Vielen Dank, dass du uns diese Nachricht gesendet hast:
+			<div class="response">
+				<?php
+				echo $_POST["kNachricht"];
+				?>
+			</div>
+			
+			Wir werden dir schnellstmöglich an 
+			<strong> 
 			<?php
-			echo $_POST["kNachricht"];
+				echo $_POST["kMail"];
 			?>
-		</div>
-		
-		Wir werden dir schnellstmöglich an 
-		<strong> 
-		<?php
-			echo $_POST["kMail"];
-		?>
-		</strong>
-		antworten.
+			</strong>
+			antworten.
 	</section>
 	</main>
 	

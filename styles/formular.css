@@ -9,7 +9,7 @@ main label.required::after {
 	font-size: 1rem;
 }
 
-main input, main textarea, main select, main article {
+main input, main textarea, main select, main article{
 	color: var(--color-p);
 	border: 1px solid var(--color-bg);
 	margin-bottom: 1rem;
@@ -53,7 +53,8 @@ main input[type="file"]::-webkit-file-upload-button {
 main input,
 main textarea,
 main select,
-main article {
+main article, 
+.response{
 	background: var(--color-bg-a);
 	padding: 0.5rem;
 	border-radius: 4px;
@@ -91,6 +92,11 @@ main a {
 
 main a:hover {
 	text-decoration: underline;
+}
+
+.response
+{
+	margin: 1rem 0;
 }
 
 @media screen and (min-width: 640px) {

@@ -29,7 +29,7 @@
   <div class="paper">
     <h3>Beispielüberschrift<pre>&lth3>Hello  ,World&lt/h3></pre></h3>
     <hr>
-    <div>
+    <div class="gallery">
       <?php
 
         $dirname = "./assets/vinezz/";
@@ -47,11 +47,12 @@
           } catch (DivisionByZeroError $e) {
           }
           }
-        ?>
-      </div>
+      ?>
+    </div>
     <hr>
     <h3>External and Audio-only</h3>
     <hr>
+    <div class="gallery">
     <figure class="vine">
     <iframe class="vine" width="560px" height="315px" src="https://www.youtube.com/embed/EqekSuj5HCo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <figcaption>Walter Frosch - Vollblutprofi</figcaption>
