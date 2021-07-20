@@ -46,7 +46,7 @@ xl > 1536px
   --color-bg: hsl(205, 76%, 5%);
   --color-bg-a: hsla(205, 76%, 5%, 0.9);
   --color-bg2: rgb(8, 21, 33);
-  --color-bg2-a: #081521c4;
+  --color-bg2-a: #081521de;
   --color-bg3: hsla(223, 90%, 12%, 0.8);
   --color-s: #fff;
   --color-h: #ddd;
@@ -110,6 +110,13 @@ summary {
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.paper {
+  background: var(--color-bg2-a);
+	border: 1px solid var(--color-p-a);
+	border-radius: 4px;
+	padding: 1rem;
 }
 
 #header-wrapper {

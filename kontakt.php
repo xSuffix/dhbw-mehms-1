@@ -22,7 +22,7 @@
 	<?php include("includes/header.php"); ?>
 
 	<main class="container">
-		<section class="contact">
+		<section class="contact paper">
 			<div>
 				<h1>Kontakt</h1>
 				<p>

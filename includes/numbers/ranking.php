@@ -3,7 +3,7 @@
     <h1>Top Ten Numbers</h1>
     <h2>trust. they are best numbers</h2>
   </div>
-  <article>
+  <article class="paper">
     <section class="info">
       <h3>Introductory Words - Our Efforts</h3>
       <hr>
