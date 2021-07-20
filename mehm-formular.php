@@ -4,7 +4,7 @@
 		<link href="styles/global.css" rel="stylesheet">
 		<link href="styles/formular.css" rel="stylesheet">
 		<meta charset="UTF-8"> 
-		<title> Kontaktformular - upload </title>
+		<title> Dein Mehm - upload </title>
 	<?php include("includes/meta.php"); ?>
 	  <style>
 		:root {
@@ -24,7 +24,7 @@
 		$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 		
 		if (move_uploaded_file($_FILES["mDatei"]["tmp_name"], $target_file)) {
-		echo "<h1> Viele Dank für deine Einsedung, der Kategorie ". $_POST["mKategorie"]. "!</h1> <br><p class=\"response\"> Die Datei ". htmlspecialchars( basename( $_FILES["mDatei"]["name"])). " wurde erfolgreich hochgeladen. </p>";
+		echo "<h1> Viele Dank für deine Einsedung der Kategorie ". $_POST["mKategorie"]. "!</h1> <br><p class=\"response\"> Die Datei ". htmlspecialchars( basename( $_FILES["mDatei"]["name"])). " wurde erfolgreich hochgeladen. </p>";
 		
 		} else {
 		echo "<h1> Tut uns Leid, es ist ein Fehler aufgetreten. Bitte versuche es erneut!</h1>";}
@@ -32,6 +32,7 @@
 		?>
 	  </section>
 	</main>
+	<?php include("includes/footer.php"); ?>
 	<?php include("includes/bottom-navigation.php"); ?>
 	</body> 
 </html>
