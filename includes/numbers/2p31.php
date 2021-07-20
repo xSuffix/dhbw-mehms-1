@@ -1,9 +1,9 @@
 <main class="container">
-  <div class="head">
+  <div class="heading">
     <h1>2.147.483.648</h1>
-    <h5 style="margin-left: auto">actually it is negative</h5>
+    <h2>actually it is negative</h2>
   </div>
-  <div class="body" style="padding-bottom: 0">
+  <div class="paper" style="padding-bottom: 0">
     <div class="firstrow">
       <h3><span class="left">More information: 2.147.483.648</span></h3>
       <hr>

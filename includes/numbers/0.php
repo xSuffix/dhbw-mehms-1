@@ -1,9 +1,9 @@
 <main class="container">
-  <div class="head">
+  <div class="heading">
     <h1>0</h1>
-    <h5 style="margin-left: auto">Nothing. Nix, nada, niente.</h5>
+    <h2>Nothing. Nix, nada, niente.</h2>
   </div>
-  <div class="body" style="padding-bottom: 0">
+  <div class="paper" style="padding-bottom: 0">
     <div class="firstrow">
       <h3><span class="left">More information: 0</span></h3>
       <hr>

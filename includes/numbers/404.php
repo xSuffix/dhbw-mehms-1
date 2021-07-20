@@ -1,12 +1,12 @@
 <main class="container">
-  <div class="head">
+  <div class="heading">
     <h1>404</h1>
-    <h5 style="margin-left: auto">Page not found</h5>
+    <h2>Page not found</h2>
   </div>
   <a href="zahlen" id="return">
-    <div class="body" style="padding-bottom: 0">
-      <div class="firstrow">
-        <h3><span class="left">Haha you should have expected this, return to ranking?</span></h3>
+    <div class="paper" style="padding-bottom: 0">
+      <div>
+        <h3>Haha you should have expected this, return to ranking?</h3>
       </div>
     </div>
   </a>

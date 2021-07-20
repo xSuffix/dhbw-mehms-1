@@ -1,11 +1,11 @@
 <main class="container">
-  <div class="head">
+  <div class="heading">
     <h1>7</h1>
-    <h5 style="margin-left: auto">The loved one</h5>
+    <h2>The loved one</h2>
   </div>
-  <div class="body" style="padding-bottom: 0">
+  <div class="paper" style="padding-bottom: 0">
     <div class="firstrow">
-      <h3><span class="left">More information: 9</span></h3>
+      <h3><span class="left">More information: 7</span></h3>
       <hr>
     </div>
     <div class="text">
