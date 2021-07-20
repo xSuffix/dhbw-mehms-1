@@ -145,6 +145,11 @@ summary {
   font-size: 2rem;
 }
 
+a.underline {
+	color: var(--color-s);
+	text-decoration: underline; 
+}
+
 #header-wrapper {
   width: 100%;
   z-index: 32;
