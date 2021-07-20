@@ -250,12 +250,17 @@ footer .sitemap a::before {
 
 footer .social-icons {
   margin: 1rem 0;
+  display: flex;
+  gap: 0 8px;
 }
 
 footer .social-icons a {
-  display: inline-block;
   background: #fff;
-  padding: 2px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 36px;
   border-radius: 50%;
 }
 

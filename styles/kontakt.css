@@ -70,6 +70,9 @@ main article {
 
 main article {
 	padding: 1rem;
+}
+
+main section article {
 	margin-left: -16px;
 	margin-right: -16px;
 	width: calc(100% + 32px);
