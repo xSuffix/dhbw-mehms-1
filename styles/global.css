@@ -394,3 +394,13 @@ footer a:hover {
     top: -2px;
   }
 }
+
+
+@media screen and (max-width: 640px) {	
+	main .heading > h1 {
+		font-size: 40px;
+	}
+	main .heading > h2 {
+		font-size: x-large;
+	}
+}

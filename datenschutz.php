@@ -19,7 +19,7 @@
 
   <main class="container">
     <div class="heading">
-      <h1>Datenschutzerklärung</h1>
+      <h1>Datenschutz</h1>
       <h2>Stand: 15.05.2021, in Bearbeitung</h2>
     </div>
     <article class="paper">
